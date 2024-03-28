@@ -1,9 +1,10 @@
 import styles from "./style";
+import React from "react";
 import { Hero, Navbar, Login , Signup, Footer, Dashboard} from "./components";
 import { Route, Routes } from "react-router";
 import { useState } from "react"; 
 import PrivateRoute from './constants/PrivateRoutes'
-import ChatBot from './chatbot/main';
+// import ChatBot from './chatbot/main';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -45,7 +46,6 @@ const App = () => {
   </Routes>
   
   <Footer />
-  {/* <ChatBot /> */}
   </div>
   )
 
