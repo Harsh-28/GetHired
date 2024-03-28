@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
 import styles from "../styles";

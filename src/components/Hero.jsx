@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../style";
 import {motion} from "framer-motion"
 import { staggerContainer,textVariant, slideIn } from "../utils/motion";
