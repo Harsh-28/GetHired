@@ -1,0 +1,151 @@
+Student ID,Name,Major,GPA,Technical Skills (Rating 1-5),Soft Skills (Rating 1-5),Internship Experience (Y/N),Previous Projects (Number),Placed (Y/N)
+10080,E456 Johnson,Business Administration,3.39,3,1,N,0,N
+10074,U912 Brown,Marketing,3.05,3,2,Y,0,N
+10038,I367 Smith,Art History,3.98,2,3,N,0,Y
+10092,U756 Smith,Engineering,3.93,4,4,Y,3,Y
+10040,A303 Johnson,Electrical Engineering,3.87,1,1,Y,2,N
+10079,O339 Jones,Marketing,3.35,4,5,Y,2,N
+10097,U419 Brown,Electrical Engineering,3.94,1,4,Y,1,N
+10078,A722 Johnson,Biotechnology,3.88,1,4,Y,2,Y
+10075,I869 Brown,Data Science,3.3,5,5,Y,0,N
+10036,U454 Jones,Finance,3.83,2,1,Y,1,Y
+10025,I444 Jones,Electrical Engineering,3.61,3,2,Y,2,N
+10070,O885 Jones,Art History,3.85,2,1,N,0,N
+10061,E492 Smith,Business Administration,3.54,5,4,N,0,N
+10080,E850 Johnson,Software Engineering,3.18,5,2,Y,4,Y
+10087,O698 Brown,Finance,3.12,5,4,Y,0,N
+10047,E317 Johnson,Software Engineering,3.25,5,1,Y,2,N
+10097,A874 Jones,Art History,3.12,3,5,N,5,Y
+10062,E318 Brown,Engineering,3.9,4,1,Y,4,N
+10044,E362 Smith,Computer Science,3.52,1,2,Y,4,N
+10032,E845 Johnson,Data Science,3.05,2,3,Y,0,N
+10050,I445 Jones,Electrical Engineering,3.04,4,5,N,0,N
+10081,A344 Brown,Biotechnology,3.05,1,1,N,1,N
+10033,E151 Johnson,Finance,3.06,5,4,N,5,Y
+10014,E346 Johnson,Biotechnology,3.5,3,3,Y,5,N
+10064,A163 Williams,Data Science,3.1,4,2,N,3,N
+10097,A397 Williams,Marketing,3.57,5,3,Y,3,N
+10080,U498 Williams,Art History,3.69,2,2,N,5,N
+10040,O218 Brown,Finance,3.67,2,3,N,4,Y
+10022,E854 Johnson,Electrical Engineering,3.43,5,3,N,0,Y
+10059,E884 Smith,Software Engineering,3.72,1,5,N,5,Y
+10079,E815 Jones,Business Administration,3.2,3,5,N,5,Y
+10002,O911 Williams,Biotechnology,3.95,5,1,Y,0,N
+10091,A550 Johnson,Computer Science,3.24,3,5,Y,0,Y
+10054,I360 Brown,Computer Science,3.87,3,5,Y,4,Y
+10039,E855 Johnson,Data Science,3.85,5,3,Y,1,N
+10028,O864 Brown,Biotechnology,3.78,2,3,N,2,Y
+10076,O406 Jones,Biotechnology,3.39,2,5,Y,1,N
+10096,O873 Johnson,Data Science,3.95,3,1,Y,2,N
+10091,I924 Williams,Biotechnology,3.88,5,4,Y,1,Y
+10072,U353 Brown,Biotechnology,3.36,1,1,N,5,N
+10047,E593 Williams,Art History,3.37,3,1,Y,4,Y
+10024,U907 Williams,Electrical Engineering,3.05,2,3,N,3,N
+10045,E937 Brown,Art History,3.21,5,3,N,3,N
+10077,I994 Smith,Electrical Engineering,3.29,4,5,N,0,N
+10058,A190 Williams,Electrical Engineering,3.73,3,1,Y,4,N
+10006,O209 Williams,Data Science,3.67,5,1,Y,1,N
+10055,I384 Williams,Marketing,3.05,2,4,Y,3,N
+10092,A250 Williams,Software Engineering,3.11,1,1,N,3,N
+10047,U838 Johnson,Software Engineering,3.33,1,4,Y,2,N
+10009,O520 Smith,Marketing,3.15,1,2,N,5,Y
+10010,I711 Williams,Finance,3.4,4,3,N,2,N
+10011,A951 Brown,Computer Science,3.99,5,4,Y,3,Y
+10012,O632 Smith,Data Science,3.27,3,2,Y,1,N
+10013,E009 Johnson,Electrical Engineering,3.51,2,4,N,0,N
+10014,I478 Williams,Marketing,3.71,4,5,Y,4,Y
+10015,A231 Brown,Software Engineering,3.82,5,2,Y,2,N
+10016,O147 Smith,Business Administration,3.19,1,3,N,1,N
+10017,E624 Johnson,Art History,3.09,2,1,Y,4,N
+10018,I073 Williams,Finance,3.9,3,4,Y,0,Y
+10019,A890 Brown,Computer Science,3.42,1,5,N,5,N
+10020,O501 Smith,Data Science,3.64,4,1,Y,3,Y
+10021,E987 Johnson,Electrical Engineering,3.23,5,2,N,2,N
+10022,I319 Williams,Art History,3.58,3,4,Y,1,N
+10023,A125 Brown,Software Engineering,3.48,2,3,N,4,N
+10024,O762 Smith,Business Administration,3.89,4,5,Y,0,Y
+10025,E258 Johnson,Finance,3.01,1,1,N,3,N
+10026,I681 Williams,Computer Science,3.74,5,3,Y,2,Y
+10027,A412 Brown,Data Science,3.34,2,4,N,1,N
+10028,O945 Smith,Electrical Engineering,3.97,3,1,Y,4,Y
+10029,E176 Johnson,Art History,3.13,4,2,N,0,N
+10030,I534 Williams,Software Engineering,3.86,1,5,Y,3,N
+10031,A067 Brown,Business Administration,3.28,5,3,N,2,N
+10032,O390 Smith,Finance,3.61,2,1,Y,1,Y
+10033,E721 Johnson,Computer Science,3.45,4,4,N,5,N
+10034,I158 Williams,Data Science,3.7,1,2,Y,4,N
+10035,A614 Brown,Electrical Engineering,3.56,3,2,Y,3,N
+10036,O823 Smith,Art History,3.92,4,5,Y,2,Y
+10037,E289 Johnson,Software Engineering,3.14,2,1,N,1,N
+10038,I752 Williams,Business Administration,3.79,5,4,Y,0,Y
+10039,A010 Brown,Finance,3.21,1,3,N,4,N
+10040,O461 Smith,Computer Science,3.53,4,2,Y,3,N
+10041,E904 Johnson,Data Science,3.81,3,5,Y,1,Y
+10042,I347 Williams,Electrical Engineering,3.07,2,4,N,0,N
+10043,A781 Brown,Art History,3.44,5,1,Y,5,N
+10044,O128 Smith,Software Engineering,3.66,1,3,N,2,Y
+10045,E563 Johnson,Business Administration,3.98,4,2,Y,1,N
+10046,I910 Williams,Finance,3.3,3,1,N,3,N
+10047,A246 Brown,Computer Science,3.91,5,4,Y,4,Y
+10048,O675 Smith,Data Science,3.03,2,2,N,0,N
+10049,E032 Johnson,Electrical Engineering,3.76,1,5,Y,1,Y
+10050,I489 Williams,Art History,3.18,4,3,N,2,N
+10051,A821 Brown,Software Engineering,3.5,3,2,Y,5,N
+10052,O254 Smith,Business Administration,3.84,5,1,Y,3,Y
+10053,E696 Johnson,Finance,3.08,2,4,N,1,N
+10054,I135 Williams,Computer Science,3.41,1,5,Y,4,N
+10055,A572 Brown,Data Science,3.63,4,3,N,0,N
+10056,O908 Smith,Electrical Engineering,3.96,3,1,Y,2,Y
+10057,E370 Johnson,Art History,3.38,2,2,N,4,N
+10058,I703 Williams,Software Engineering,3.59,5,4,Y,1,Y
+10059,A045 Brown,Business Administration,3.8,2,3,N,3,N
+10035,A614 Brown,Electrical Engineering,3.56,3,2,Y,3,N
+10036,O823 Smith,Art History,3.92,4,5,Y,2,Y
+10037,E289 Johnson,Software Engineering,3.14,2,1,N,1,N
+10038,I752 Williams,Business Administration,3.79,5,4,Y,0,Y
+10039,A010 Brown,Finance,3.21,1,3,N,4,N
+10040,O461 Smith,Computer Science,3.53,4,2,Y,3,N
+10041,E904 Johnson,Data Science,3.81,3,5,Y,1,Y
+10042,I347 Williams,Electrical Engineering,3.07,2,4,N,0,N
+10043,A781 Brown,Art History,3.44,5,1,Y,5,N
+10044,O128 Smith,Software Engineering,3.66,1,3,N,2,Y
+10045,E563 Johnson,Business Administration,3.98,4,2,Y,1,N
+10046,I910 Williams,Finance,3.3,3,1,N,3,N
+10047,A246 Brown,Computer Science,3.91,5,4,Y,4,Y
+10048,O675 Smith,Data Science,3.03,2,2,N,0,N
+10049,E032 Johnson,Electrical Engineering,3.76,1,5,Y,1,Y
+10050,I489 Williams,Art History,3.18,4,3,N,2,N
+10051,A821 Brown,Software Engineering,3.5,3,2,Y,5,N
+10052,O254 Smith,Business Administration,3.84,5,1,Y,3,Y
+10053,E696 Johnson,Finance,3.08,2,4,N,1,N
+10054,I135 Williams,Computer Science,3.41,1,5,Y,4,N
+10055,A572 Brown,Data Science,3.63,4,3,N,0,N
+10056,O908 Smith,Electrical Engineering,3.96,3,1,Y,2,Y
+10057,E370 Johnson,Art History,3.38,2,2,N,4,N
+10058,I703 Williams,Software Engineering,3.59,5,4,Y,1,Y
+10059,A045 Brown,Business Administration,3.8,2,3,N,3,N
+10055,E110 Williams,Engineering,4,2,5,N,0,N
+10090,I568 Brown,Biotechnology,3.33,2,4,N,3,Y
+10042,E878 Jones,Engineering,3.59,1,3,Y,2,N
+10042,O226 Smith,Computer Science,3.21,1,4,Y,3,N
+10034,E904 Williams,Marketing,3.36,5,3,N,1,Y
+10045,U601 Smith,Art History,3.04,4,4,N,1,Y
+10003,A242 Smith,Business Administration,3.42,5,5,Y,1,Y
+10041,U894 Brown,Engineering,3.76,2,1,Y,0,N
+10035,A361 Jones,Finance,3.24,2,1,Y,0,N
+10057,A385 Smith,Marketing,3.73,3,2,N,1,N
+10032,E884 Williams,Biotechnology,3.57,3,1,Y,3,N
+10046,E830 Brown,Engineering,3.27,4,4,N,4,Y
+10013,I668 Williams,Computer Science,3.52,3,3,N,1,N
+10070,U701 Williams,Finance,3.09,3,5,N,1,N
+10006,O907 Jones,Data Science,3.44,3,4,N,3,N
+10019,O918 Johnson,Computer Science,3.9,3,5,Y,5,Y
+10020,U802 Johnson,Business Administration,3.24,4,5,N,5,N
+10036,O895 Brown,Electrical Engineering,3.44,3,5,N,2,N
+10042,E762 Smith,Art History,3.72,3,5,N,5,Y
+10016,A437 Williams,Marketing,3.65,3,2,N,3,N
+10090,U622 Jones,Marketing,3.17,3,3,N,0,N
+10004,O859 Smith,Art History,3.4,5,1,Y,2,N
+10068,O909 Jones,Finance,3.6,1,4,N,4,N
+10024,E874 Jones,Finance,3.63,2,4,Y,4,Y
+10005,O809 Brown,Electrical Engineering,3.62,4,3,Y,2,N
