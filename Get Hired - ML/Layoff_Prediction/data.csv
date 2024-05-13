@@ -1,0 +1,186 @@
+Employee ID,Department,Job Title,Years of Experience,Age Range,Location,Laid Off,Layoff Date,Layoff Reason,Severance Package,Promotion,Transfer
+EMP_0001,Engineering,Software Engineer,5,20-29,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0002,Marketing,Marketing Manager,10,30-39,New York City,No,,Promotion,No,
+EMP_0003,Sales,Sales Associate,2,20-29,London,No,,No,No,
+EMP_0004,IT,Network Administrator,15,40-49,Remote,Yes,2024,Restructuring,Yes,,
+EMP_0005,Engineering,Data Scientist,8,30-39,San Francisco Bay Area,No,,No,No,
+EMP_0006,Marketing,Content Creator,3,20-29,New York City,No,,No,Yes,
+EMP_0007,Sales,Account Executive,7,40-49,London,Yes,2023,Downsizing,No,,
+EMP_0008,IT,Help Desk Analyst,1,20-29,Remote,No,,Promotion,No,
+EMP_0009,Engineering,Quality Assurance Engineer,4,30-39,San Francisco Bay Area,No,,No,No,
+EMP_0010,Marketing,Social Media Manager,5,20-29,New York City,No,,Promotion,Yes,
+EMP_0011,Finance,Financial Analyst,12,40-49,New York City,No,,Promotion,No,
+EMP_0012,Operations,Supply Chain Manager,8,30-39,London,No,,No,Yes,
+EMP_0013,Human Resources,Recruiter,3,20-29,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0014,Customer Service,Support Specialist,5,20-29,Remote,Yes,2024,Restructuring,No,,
+EMP_0015,Finance,Accountant,10,30-39,New York City,No,,No,No,
+EMP_0016,Operations,Logistics Coordinator,2,20-29,London,No,,No,Yes,
+EMP_0017,Human Resources,HR Manager,15,40-49,San Francisco Bay Area,Yes,2023,Downsizing,Yes,,
+EMP_0018,Customer Service,Team Lead,7,30-39,Remote,No,,Promotion,No,
+EMP_0019,Finance,Investment Analyst,4,20-29,New York City,No,,No,No,
+EMP_0020,Operations,Inventory Specialist,1,20-29,London,No,,Promotion,Yes,
+EMP_0021,Engineering,Software Developer,3,20-29,San Francisco Bay Area,No,,No,No,
+EMP_0022,Marketing,Marketing Associate,1,20-29,New York City,No,,Promotion,Yes,
+EMP_0023,Sales,Business Development Representative,5,30-39,London,No,,No,Yes,
+EMP_0024,IT,Systems Engineer,12,40-49,Remote,Yes,2024,Restructuring,Yes,,
+EMP_0025,Engineering,UI/UX Designer,7,30-39,San Francisco Bay Area,No,,No,No,
+EMP_0026,Marketing,Copywriter,4,20-29,New York City,No,,Promotion,No,
+EMP_0027,Sales,Regional Sales Manager,10,40-49,London,Yes,2023,Downsizing,No,,
+EMP_0028,IT,Security Analyst,8,30-39,Remote,No,,Promotion,Yes,
+EMP_0029,Engineering,Machine Learning Engineer,6,20-29,San Francisco Bay Area,No,,No,No,
+EMP_0030,Marketing,Market Research Analyst,2,20-29,New York City
+EMP_0031,Sales,Account Manager,5,30-39,London,No,,No,Yes,
+EMP_0032,IT,Web Developer,3,20-29,Remote,Yes,2024,Restructuring,No,,
+EMP_0033,Engineering,Backend Engineer,8,30-39,San Francisco Bay Area,No,,No,No,
+EMP_0034,Marketing,Social Media Specialist,1,20-29,New York City,No,,Promotion,Yes,
+EMP_0035,Sales,Sales Representative,2,20-29,London,No,,No,No,
+EMP_0036,IT,Database Administrator,10,40-49,Remote,Yes,2023,Downsizing,Yes,,
+EMP_0037,Engineering,Full Stack Developer,6,20-29,San Francisco Bay Area,No,,Promotion,No,
+EMP_0038,Marketing,Content Marketing Manager,7,30-39,New York City,No,,No,Yes,
+EMP_0039,Sales,Business Development Specialist,4,20-29,London,No,,Promotion,No,
+EMP_0040,IT,Software Engineer in Test,5,30-39,Remote,Yes,2024,Restructuring,No,,
+EMP_0041,Finance,Financial Analyst,3,20-29,New York City,No,,No,Yes,
+EMP_0042,Operations,Project Manager,8,30-39,London,No,,Promotion,No,
+EMP_0043,Human Resources,Talent Acquisition Specialist,2,20-29,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0044,Customer Service,Customer Success Manager,5,30-39,Remote,Yes,2023,Downsizing,Yes,,
+EMP_0045,Finance,Accountant,10,40-49,New York City,No,,No,No,
+EMP_0046,Operations,Supply Chain Analyst,4,20-29,London,No,,Promotion,Yes,
+EMP_0047,Human Resources,Benefits Specialist,7,30-39,San Francisco Bay Area,No,,No,No,
+EMP_0048,Customer Service,Quality Assurance Analyst,12,40-49,Remote,Yes,2024,Restructuring,No,,
+EMP_0049,Finance,Investment Banker,8,30-39,New York City,No,,Promotion,No,
+EMP_0050,Operations,Inventory Control Specialist,2,20-29,London,No,,Promotion,Yes,
+EMP_0051,Engineering,Software Architect,15,40-49,San Francisco Bay Area,No,,No,No,
+EMP_0052,Marketing,Marketing Director,12,40-49,New York City,No,,Promotion,Yes,
+EMP_0053,Sales,National Sales Manager,10,40-49,London,Yes,2023,Downsizing,No,,
+EMP_0054,IT,Cloud Architect,8,30-39,Remote,No,,Promotion,No,
+EMP_0055,Engineering,Data Engineer,6,20-29,San Francisco Bay Area,No,,No,Yes,
+EMP_0056,Marketing,Product Marketing Manager,5,30-39,New York City,No,,Promotion,Yes,
+EMP_0057,Sales,Sales Director,15,40-49,London,Yes,2024,Restructuring,Yes,,
+EMP_0058,IT,Network Security Engineer,12,40-49,Remote,No,,Promotion,No,
+EMP_0059,Engineering,Front-End Developer,4,20-29,San Francisco Bay Area,No,,No,No,
+EMP_0060,Marketing,Public Relations Specialist,3,20-29,New York City,No,,Promotion,Yes,
+EMP_0061,Sales,Inside Sales Representative,1,20-29,London
+EMP_0061,Sales,Inside Sales Representative,1,20-29,London,No,,Promotion,Yes,
+EMP_0062,IT,IT Support Specialist,2,20-29,Remote,Yes,2024,Restructuring,No,,
+EMP_0063,Engineering,Full Stack Developer,7,30-39,San Francisco Bay Area,No,,No,No,
+EMP_0064,Marketing,Search Engine Marketing Specialist,5,30-39,New York City,No,,Promotion,Yes,
+EMP_0065,Sales,Business Analyst,4,20-29,London,No,,Promotion,No,
+EMP_0066,IT,Data Analyst,8,30-39,Remote,Yes,2023,Downsizing,Yes,,
+EMP_0067,Engineering,DevOps Engineer,10,40-49,San Francisco Bay Area,No,,No,No,
+EMP_0068,Marketing,Brand Marketing Manager,3,20-29,New York City,No,,Promotion,No,
+EMP_0069,Sales,Sales Engineer,6,20-29,London,No,,Promotion,Yes,
+EMP_0070,IT,Business Systems Analyst,12,40-49,Remote,Yes,2024,Restructuring,No,,
+EMP_0071,Finance,Budget Analyst,5,30-39,New York City,No,,No,Yes,
+EMP_0072,Operations,Logistics Manager,8,30-39,London,No,,Promotion,No,
+EMP_0073,Human Resources,Learning and Development Specialist,2,20-29,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0074,Customer Service,Customer Support Representative,1,20-29,Remote,Yes,2023,Downsizing,Yes,,
+EMP_0075,Finance,Controller,15,40-49,New York City,No,,No,No,
+EMP_0076,Operations,Purchasing Manager,10,40-49,London,No,,Promotion,Yes,
+EMP_0077,Human Resources,Compensation and Benefits Manager,7,30-39,San Francisco Bay Area,Yes,2024,Restructuring,Yes,,
+EMP_0078,Customer Service,Technical Support Specialist,12,40-49,Remote,No,,Promotion,No,
+EMP_0079,Finance,Risk Analyst,4,20-29,New York City,No,,No,No,
+EMP_0080,Operations,Warehouse Manager,2,20-29,London,No,,Promotion,Yes,
+EMP_0081,Engineering,Product Manager,10,40-49,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0082,Marketing,Marketing Analyst,7,30-39,New York City,No,,No,No,
+EMP_0083,Sales,Regional Sales Director,15,40-49,London,Yes,2023,Downsizing,No,,
+EMP_0084,IT,Database Administrator,8,30-39,Remote,No,,Promotion,No,
+EMP_0085,Engineering,Software Development Manager,12,40-49,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0086,Marketing,Creative Director,5,30-39,New York City,No,,Promotion,Yes,
+EMP_0087,Sales,Sales Operations Manager,10,40-49,London,Yes,2024,Restructuring,Yes,,
+EMP_0088,IT,Security Engineer,3,20-29,Remote,No,,Promotion,No,
+EMP_0089,Engineering,Quality Assurance Engineer,1,20-29,San Francisco Bay Area,No,,No,No,
+EMP_0090,Marketing,Web Analyst,4,20-29,New York City,No,,Promotion,Yes,
+EMP_0091,Sales,Business Development Manager,8 X 3░
+EMP_0091,Sales,Business Development Manager,8,30-39,London,No,,Promotion,No,
+EMP_0092,IT,Systems Analyst,5,30-39,Remote,Yes,2024,Restructuring,No,,
+EMP_0093,Engineering,UI/UX Designer,3,20-29,San Francisco Bay Area,No,,No,Yes,
+EMP_0094,Marketing,Content Marketing Specialist,1,20-29,New York City,No,,Promotion,Yes,
+EMP_0095,Sales,Account Executive,7,30-39,London,No,,No,No,
+EMP_0096,IT,Software Developer,10,40-49,Remote,Yes,2023,Downsizing,Yes,,
+EMP_0097,Engineering,Backend Engineer,4,20-29,San Francisco Bay Area,No,,Promotion,No,
+EMP_0098,Marketing,Social Media Manager,2,20-29,New York City,No,,Promotion,Yes,
+EMP_0099,Sales,Sales Representative,6,20-29,London,No,,No,No,
+EMP_0100,IT,Web Developer,8,30-39,Remote,Yes,2024,Restructuring,No,,
+EMP_0101,Finance,Financial Analyst,5,30-39,New York City,No,,No,Yes,
+EMP_0102,Operations,Project Manager,3,20-29,London,No,,Promotion,Yes,
+EMP_0103,Human Resources,Talent Acquisition Specialist,1,20-29,San Francisco Bay Area,No,,Promotion,Yes,
+EMP_0104,Customer Service,Customer Success Manager,7,30-39,Remote,Yes,2023,Downsizing,Yes,,
+EMP_0105,Finance,Accountant,10,40-49,New York City,No,,No,No,
+EMP_0106,Operations,Supply Chain Analyst,4,20-29,London,No,,Promotion,Yes,
+EMP_0107,Human Resources,Benefits Specialist,2,20-29,San Francisco Bay Area,No,,No,No,
+EMP_0108,Customer Service,Quality Assurance Analyst,8,30-39,Remote,Yes,2024,Restructuring,No,,
+EMP_0109,Finance,Investment Banker,6,20-29,New York City,No,,Promotion,No,
+EMP_0110,Operations,Inventory Control Specialist,1,20-29,London,No,,Promotion,Yes,
+EMP_0111,Engineering,Software Architect,12,40-49,San Francisco Bay Area,No,,No,No,
+EMP_0112,Marketing,Marketing Director,7,30-39,New York City,No,,Promotion,Yes,
+EMP_0113,Sales,National Sales Manager,15,40-49,London,Yes,2023,Downsizing,No,,
+EMP_0114,IT,Cloud Architect,3,20-29,Remote,No,,Promotion,No,
+EMP_0115,Engineering,Data Engineer,1,20-29,San Francisco Bay Area,No,,No,Yes,
+EMP_0116,Marketing,Product Marketing Manager,5,30-39,New York City,No,,Promotion,Yes,
+EMP_0117,Sales,Sales Director,10,40-49,London,Yes,2024,Restructuring,Yes,,
+EMP_0118,IT,Network Security Engineer,8,30-39,Remote,No,,Promotion,No,
+EMP_0119,Engineering,Front-End Developer,4,20-29,San Francisco Bay Area,No,,No,No,
+EMP_0120,Marketing,Public Relations Specialist,2,20-29,New York City,No,,Promotion,Yes,
+EMP_0121,Sales,Inside Sales Representative,6,20-29,London,No,,No,
+EMP_1569,Operations,Team Lead,15,30-39,New York City,True,2022-6-22,Restructuring,True,True,None
+EMP_4110,Human Resources,Inventory Specialist,9,30-39,London,False,None,None,None,False,None
+EMP_2898,Operations,Software Engineer,5,40-49,Remote,False,None,None,None,False,None
+EMP_3450,Human Resources,Social Media Manager,11,40-49,London,False,None,None,None,True,None
+EMP_3034,Sales,Content Creator,12,20-29,Remote,False,None,None,None,True,None
+EMP_6245,IT,Recruiter,12,40-49,Remote,True,2020-10-24,Restructuring,False,True,None
+EMP_5426,Sales,Investment Analyst,7,20-29,San Francisco Bay Area,True,2022-1-23,Downsizing,False,True,None
+EMP_6415,Marketing,Marketing Manager,12,20-29,Remote,True,2020-4-22,Downsizing,False,False,None
+EMP_4185,Finance,Accountant,1,20-29,London,True,2021-11-10,Restructuring,True,True,None
+EMP_9864,Operations,Supply Chain Manager,10,30-39,New York City,False,None,None,None,False,None
+EMP_5897,IT,Help Desk Analyst,10,30-39,New York City,False,None,None,None,False,None
+EMP_9436,Human Resources,Marketing Manager,13,30-39,San Francisco Bay Area,False,None,None,None,False,None
+EMP_2065,Customer Service,Data Scientist,4,40-49,Remote,True,2022-5-17,Restructuring,True,True,None
+EMP_9724,IT,Accountant,9,30-39,New York City,False,None,None,None,True,None
+EMP_3321,Operations,Account Executive,8,30-39,London,False,None,None,None,True,None
+EMP_1827,Operations,Accountant,9,30-39,New York City,False,None,None,None,False,None
+EMP_3965,Finance,Logistics Coordinator,7,30-39,London,True,2023-6-7,Restructuring,False,True,None
+EMP_5076,Engineering,Inventory Specialist,10,30-39,San Francisco Bay Area,False,None,None,None,False,None
+EMP_1697,Finance,Software Engineer,11,40-49,Remote,True,2020-6-15,Restructuring,True,False,None
+EMP_6393,Human Resources,Network Administrator,11,30-39,New York City,True,2023-11-16,Restructuring,True,False,None
+EMP_6067,Finance,Quality Assurance Engineer,2,20-29,San Francisco Bay Area,False,None,None,None,False,None
+Employee ID,Department,Job Title,Years of Experience,Age Range,Location,Laid Off,Layoff Date,Layoff Reason,Severance Package,Promotion,Transfer
+EMP_7521,Marketing,Web Developer,8,30-39,San Francisco Bay Area,False,None,None,None,True,Marketing Manager (EMP_1102)
+EMP_8193,Sales,Business Development Representative,3,20-29,London,False,None,None,None,False,Sales Manager (EMP_9274)
+EMP_1234,Engineering,Full Stack Developer,6,20-29,Remote,True,2024-02-14,Restructuring,No,False,Operations (Department)
+EMP_9012,Customer Service,Quality Assurance Analyst,10,40-49,Remote,Yes,2023-12-08,Downsizing,Yes,False,None
+EMP_3748,Finance,Financial Analyst,7,30-39,New York City,False,None,None,None,True,Investment Banker (EMP_5621)
+EMP_2590,Operations,Supply Chain Analyst,5,20-29,London,No,None,None,None,False,Promotion to Team Lead (Current Role)
+EMP_8461,Human Resources,Talent Acquisition Specialist,2,20-29,San Francisco Bay Area,False,None,None,None,True,HR Manager (EMP_7139)
+EMP_6782,IT,Network Security Engineer,12,40-49,Remote,Yes,2024-04-12,Restructuring,No,True,Engineering (Department)
+EMP_5143,Marketing,Content Marketing Manager,4,20-29,New York City,False,None,None,None,True,Marketing Director (EMP_0817)
+EMP_4275,Sales,Account Executive,9,30-39,London,False,None,None,None,False,Regional Sales Manager (EMP_3098)
+EMP_1956,Engineering,Software Development Engineer,1,20-29,San Francisco Bay Area,False,None,None,None,False,Promotion to Full Stack Developer (Next Role)
+EMP_0632,Customer Service,Customer Support Representative,8,30-39,Remote,Yes,2023-08-23,Downsizing,Yes,False,None
+EMP_7841,Finance,Accountant,10,40-49,New York City,False,None,None,None,True,Controller (EMP_2387)
+EMP_9310,Operations,Inventory Control Specialist,2,20-29,London,False,None,None,None,False,Promotion to Supply Chain Analyst (Next Role)
+EMP_6173,Human Resources,Learning and Development Specialist,3,20-29,San Francisco Bay Area,False,None,None,None,True,Compensation and Benefits Manager (EMP_8952)
+EMP_2401,IT,Software Developer,5,30-39,Remote,Yes,2024-01-19,Restructuring,No,True,Engineering (Department) 
+EMP_8027,Marketing,Public Relations Specialist,1,20-29,New York City,False,None,None,None,False,Promotion to Content Marketing Specialist (Next Role)
+EMP_3584,Sales,Business Development Manager,6,20-29,London,False,None,None,None,True,National Sales Manager (EMP_0729)
+EMP_1053,Engineering,UI/UX Designer,4,20-29,San Francisco Bay Area,False,None,None,None,True,Product Manager (EMP_4862)
+EMP_1257,Marketing,Social Media Specialist,5,20-29,Remote,False,None,None,None,True,Marketing Manager (EMP_6714)
+EMP_9682,Sales,Account Manager,8,30-39,London,True,2024-03-15,Restructuring,False,False,None
+EMP_7349,Engineering,Data Scientist,12,40-49,San Francisco Bay Area,False,None,None,None,True,Machine Learning Engineer (Next Role)
+EMP_2105,Customer Service,Customer Success Manager,7,30-39,Remote,Yes,2023-05-12,Downsizing,Yes,False,None
+EMP_8916,Finance,Investment Analyst,3,20-29,New York City,False,None,None,None,False,Promotion to Financial Analyst (Next Role)
+EMP_4571,Operations,Project Manager,10,40-49,London,False,None,None,None,True,Director of Operations (EMP_1428)
+EMP_3248,Human Resources,Benefits Specialist,4,20-29,San Francisco Bay Area,False,None,None,None,True,Talent Acquisition Specialist (EMP_0413)
+EMP_5904,IT,Web Developer,6,20-29,Remote,Yes,2024-05-02,Restructuring,No,True,Marketing (Department)
+EMP_0263,Marketing,Content Marketing Specialist,9,30-39,New York City,False,None,None,None,False,Marketing Director (EMP_3175)
+EMP_6835,Sales,Regional Sales Manager,15,40-49,London,False,None,None,None,True,National Sales Director (EMP_9542)
+EMP_1390,Engineering,Software Engineer,2,20-29,San Francisco Bay Area,False,None,None,None,False,Promotion to Full Stack Developer (Next Role) 
+EMP_8412,Customer Service,Quality Assurance Analyst,5,20-29,Remote,Yes,2023-11-17,Downsizing,Yes,False,None
+EMP_2081,Finance,Accountant,7,30-39,New York City,False,None,None,None,True,Financial Analyst (EMP_5294)
+EMP_9157,Operations,Supply Chain Analyst,1,20-29,London,False,None,None,None,False,Promotion to Inventory Control Specialist (Next Role)
+EMP_4720,Human Resources,Compensation and Benefits Manager,10,40-49,San Francisco Bay Area,True,2024-02-09,Restructuring,No,False,None
+EMP_3056,IT,Network Administrator,8,30-39,Remote,False,None,None,None,True,Security Engineer (EMP_7639)
+EMP_5683,Marketing,Public Relations Specialist,4,20-29,New York City,False,None,None,None,True,Marketing Manager (EMP_1907)
+EMP_0314,Sales,Business Development Representative,2,20-29,London,False,None,None,None,False,Promotion to Account Executive (Next Role)
+EMP_7951,Engineering,Backend Engineer,1,20-29,San Francisco Bay Area,False,None,None,None,False,Promotion to Full Stack Developer (Next Role)
+EMP_2228,Customer Service,Customer Support Representative,6,20-29,Remote,Yes,2023-04-21,Downsizing,Yes,False,None
+EMP_8796,Finance,Accountant,9,30-39,New York City,True,2024-04-19,Restructuring,False,True,Operations (Department)
