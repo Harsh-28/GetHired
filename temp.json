@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Mechanical Engineering Technician",
+        "company": "Wolf-Cummerata",
+        "location": "Remote",
+        "salary": 68295
+    },
+    {
+        "title": "File Clerk",
+        "company": "Mueller Inc",
+        "location": "Vigan, Guinea",
+        "salary": 57992
+    },
+    {
+        "title": "Medical examinator",
+        "company": "Block, Purdy and Prosacco",
+        "location": "Mati, Christmas Island",
+        "salary": 71373
+    },
+    {
+        "title": "Electrical Engineer",
+        "company": "Treutel-Oberbrunner",
+        "location": "Alaminos, Cocos (Keeling) Islands",
+        "salary": 51042
+    },
+    {
+        "title": "English Teacher",
+        "company": "Schowalter-Koss",
+        "location": "Tabaco, Tuvalu",
+        "salary": 76623
+    }
+]
