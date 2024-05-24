@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layoff Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #343a40;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .form-group label {
+            font-weight: 500;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        .alert-info {
+            color: #0c5460;
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #6c757d;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Layoff Prediction</h1>
+        <form id="prediction-form">
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select class="form-control" id="department" name="department" required>
+                    <option>Finance</option>
+                    <option>Human Resource</option>
+                    <option>IT</option>
+                    <option>Marketing</option>
+                    <option>Operations</option>
+                    <option>Sales</option>
+                    <option>Customer Service</option>
+                    <option>Engineering</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="job_title">Job Title:</label>
+                <select class="form-control" id="job_title" name="job_title" required>
+                    <option>Software Engineer</option>
+                    <option>Marketing Manager</option>
+                    <option>Sales Associate</option>
+                    <option>Network Administrator</option>
+                    <option>Data Scientist</option>
+                    <option>Content Creator</option>
+                    <option>Account Executive</option>
+                    <option>Help Desk Analyst</option>
+                    <option>Quality Assurance Engineer</option>
+                    <option>Social Media Manager</option>
+                    <option>Financial Analyst</option>
+                    <option>Supply Chain Manager</option>
+                    <option>Recruiter</option>
+                    <option>Support Specialist</option>
+                    <option>Accountant</option>
+                    <option>Logistics Coordinator</option>
+                    <option>HR Manager</option>
+                    <option>Team Lead</option>
+                    <option>Investment Analyst</option>
+                    <option>Inventory Specialist</option>
+                    <option>Software Developer</option>
+                    <option>Marketing Associate</option>
+                    <option>Business Development Representative</option>
+                    <option>Systems Engineer</option>
+                    <option>UI/UX Designer</option>
+                    <option>Copywriter</option>
+                    <option>Regional Sales Manager</option>
+                    <option>Security Analyst</option>
+                    <option>Machine Learning Engineer</option>
+                    <option>Market Research Analyst</option>
+                    <option>Account Manager</option>
+                    <option>Web Developer</option>
+                    <option>Backend Engineer</option>
+                    <option>Social Media Specialist</option>
+                    <option>Sales Representative</option>
+                    <option>Database Administrator</option>
+                    <option>Full Stack Developer</option>
+                    <option>Content Marketing Manager</option>
+                    <option>Business Development Specialist</option>
+                    <option>Software Engineer in Test</option>
+                    <option>Project Manager</option>
+                    <option>Talent Acquisition Specialist</option>
+                    <option>Customer Success Manager</option>
+                    <option>Supply Chain Analyst</option>
+                    <option>Benefits Specialist</option>
+                    <option>Quality Assurance Analyst</option>
+                    <option>Investment Banker</option>
+                    <option>Inventory Control Specialist</option>
+                    <option>Software Architect</option>
+                    <option>Marketing Director</option>
+                    <option>National Sales Manager</option>
+                    <option>Cloud Architect</option>
+                    <option>Data Engineer</option>
+                    <option>Product Marketing Manager</option>
+                    <option>Sales Director</option>
+                    <option>Network Security Engineer</option>
+                    <option>Front-End Developer</option>
+                    <option>Public Relations Specialist</option>
+                    <option>Inside Sales Representative</option>
+                    <option>IT Support Specialist</option>
+                    <option>Search Engine Marketing Specialist</option>
+                    <option>Business Analyst</option>
+                    <option>Data Analyst</option>
+                    <option>DevOps Engineer</option>
+                    <option>Brand Marketing Manager</option>
+                    <option>Sales Engineer</option>
+                    <option>Business Systems Analyst</option>
+                    <option>Budget Analyst</option>
+                    <option>Logistics Manager</option>
+                    <option>Learning and Development Specialist</option>
+                    <option>Customer Support Representative</option>
+                    <option>Controller</option>
+                    <option>Purchasing Manager</option>
+                    <option>Compensation and Benefits Manager</option>
+                    <option>Technical Support Specialist</option>
+                    <option>Risk Analyst</option>
+                    <option>Warehouse Manager</option>
+                    <option>Product Manager</option>
+                    <option>Marketing Analyst</option>
+                    <option>Regional Sales Director</option>
+                    <option>Software Development Manager</option>
+                    <option>Creative Director</option>
+                    <option>Sales Operations Manager</option>
+                    <option>Security Engineer</option>
+                    <option>Web Analyst</option>
+                    <option>Business Development Manager</option>
+                    <option>Systems Analyst</option>
+                    <option>Content Marketing Specialist</option>
+                    <option>Software Development Engineer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="years_exp">Years of Experience:</label>
+                <input type="number" class="form-control" id="years_exp" name="years_exp" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" step="0.1" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <select class="form-control" id="location" name="location" required>
+                    <option>Bangalore</option>
+                    <option>Hyderabad</option>
+                    <option>Mumbai</option>
+                    <option>Remote</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="severance">Severance Package Granted:</label>
+                <select class="form-control" id="severance" name="severance" required>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="promotion">Promotion Granted:</label>
+                <select class="form-control" id="promotion" name="promotion" required>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-predict"></i> Predict</button>
+        </form>
+        <div id="prediction-result" class="alert alert-info mt-4" style="display: none;">
+            <strong>Prediction:</strong> <span id="prediction-output"></span>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Layoff Prediction. Designed with <i class="fas fa-heart"></i> Get Hired Team</p>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $('#prediction-form').on('submit', function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '/predict',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        let message;
+                        if (response.prediction == 1) {
+                            message = "Layoff chances are higher.";
+                        } else {
+                            message = "Layoff chances are less.";
+                        }
+                        $('#prediction-output').text(message);
+                        $('#prediction-result').show();
+                    },
+                    error: function(error) {
+                        console.log(error);
+                        alert('Error occurred during prediction.');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
