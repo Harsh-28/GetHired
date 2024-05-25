@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
         required: true,
         trim: true,
     },
-    lasttName:{
+    lastName:{
         type: String,
         required: true,
         trim: true,
@@ -25,16 +25,26 @@ const userSchema = new mongoose.Schema({
         required: true,
         ref: "Profile",
     },
+    studentDetails:{
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: "StudentDetails",
+    },
     image:{
         type: String,
-        required: true,
+        
     },
     token:{
         type: String,
     },
     resetPasswordExpires:{
         type: Date,
-    }
+    },
+    accountType:{
+        type: String,
+        enum: ["Admin", "Student", "Employee"],
+        required: true,
+    },
 });
 
 module.exports = mongoose.model("User", userSchema)

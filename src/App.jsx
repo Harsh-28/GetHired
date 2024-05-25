@@ -1,47 +1,87 @@
-import styles from "./style";
 import React from "react";
-import { Hero, Navbar, Login , Signup, Footer, Dashboard} from "./components";
+import "./App.css"
+import { Hero, Login , Signup, Footer, Dashboard, Contact} from "./components";
 import { Route, Routes } from "react-router";
-import { useState } from "react"; 
-import PrivateRoute from './constants/PrivateRoutes'
-// import ChatBot from './chatbot/main';
+import OpenRoute from "./components/core/Auth/OpenRoute";
+import ForgotPassword from "./components/ForgotPassword";
+import UpdatePassword from './components/UpdatePassword';
+import VerifyEmail from "./components/VerifyEmail";
+import Navbar from './components/Navbar'
+import MyProfile from './components/core/Dashboard/MyProfile'
+import Settings from './components/core/Dashboard/Settings';
+import StudentPredictionForm from "./components/studentPredictionForm";
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return(
-    <div className="bg-[#00040f] overflow-hidden">
-  <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
+    <div className="min-h-screen bg-richblack-900 flex flex-col font-inter overflow-x-hidden">
+    <Navbar/>
 
   <Routes>
 
     <Route path="/" element= {<Hero  />} />
-    <Route path="/login" element = {<Login   setIsLoggedIn={setIsLoggedIn}/>} />
-    <Route path="/signup" element={<Signup  setIsLoggedIn={setIsLoggedIn}/>} />
-    <Route path="/dashboard" element = {
-      <PrivateRoute isLoggedIn={isLoggedIn}>
-          <Dashboard/>
-      </PrivateRoute>
-   
-    } />
-    <Route path="/placement-prediction" element = {
-      <PrivateRoute isLoggedIn={isLoggedIn}>
-          <Dashboard/>
-      </PrivateRoute>
-   
-    } />
-    <Route path="/layoff-prediction" element = {
-      <PrivateRoute isLoggedIn={isLoggedIn}>
-          <Dashboard/>
-      </PrivateRoute>
-   
-    } />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="placement-prediction" element={< StudentPredictionForm/>} />
 
-    <Route path="/job-search" element = {
-      <PrivateRoute isLoggedIn={isLoggedIn}>
-          <Dashboard/>
-      </PrivateRoute>
-   
-    } />
+    <Route
+          path="signup"
+          element={
+            <OpenRoute>
+              <Signup />
+            </OpenRoute>
+            
+          }
+        />
+      <Route
+          path="login"
+          element={
+            <OpenRoute>
+            <Login />
+          </OpenRoute>
+          }
+        />
+        <Route
+          path="forgot-password"
+          element={
+            <OpenRoute>
+            <ForgotPassword />
+          </OpenRoute>
+          }
+        />
+        <Route
+          path="update-password/:id"
+          element={
+            <OpenRoute>
+              <UpdatePassword />
+            </OpenRoute>
+            // <UpdatePassword />
+          }
+        />
+        <Route
+          path="verify-email"
+          element={
+            <OpenRoute>
+              <VerifyEmail />
+            </OpenRoute>
+            
+          }
+        />
+       
+        
+        <Route
+          element={
+          //   <PrivateRoute>
+              
+          //   </PrivateRoute>
+            <Dashboard />
+          }
+        >
+          {/* Route for all users */}
+          <Route path="dashboard/my-profile" element={<MyProfile />} />
+          <Route path="dashboard/Settings" element={<Settings />} />
+
+        </Route>
+
 
   </Routes>
   
