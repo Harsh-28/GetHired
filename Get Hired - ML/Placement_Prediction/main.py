@@ -1,14 +1,15 @@
 import pickle
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS, cross_origin
 import numpy as np
 from pymongo.mongo_client import MongoClient
 from get_hired_database import student_detail_entry
 import copy
 #Undump the model
-model = pickle.load(open('Placement_Prediction\\placement_model.pkl', 'rb'))
+model = pickle.load(open('C:\\Users\\hp\\Desktop\\MajorProject\\Get Hired - ML\\Placement_Prediction\\placement_model.pkl', 'rb'))
 
-# Create object of class Flask
 app = Flask(__name__)
+CORS(app)  # This will enable CORS for all routes
 
 
 def encode(user_subject):
@@ -61,29 +62,32 @@ def preprocess(features):
 
 
 
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/predict', methods=['POST'])
-def predict():  
-    data = request.form
+@app.route('/receiveData', methods=['POST'])
+@cross_origin()  # This will enable CORS for this specific route
+def receive_data():
+    data = request.json
+    print("Data received from frontend:", data)
+    print(type(data))
+    data1 = data['userInput']
+    if data1['internship'] == "1":
+        data1['internship'] = 1
+    else:
+        data1['internship'] = 0
     features = [
-        data['major_subject'],
-        float(data['gpa']),
-        int(data['technical_skill']),
-        int(data['soft_skill']),
-        int(data['internship']),
-        int(data['projects'])
+        data1['major_subject'],
+        float(data1['gpa']),
+        int(data1['technical_skill']),
+        int(data1['soft_skill']),
+        int(data1['internship']),
+        int(data1['projects'])
     ]
 
     print(features)
 
-
     #! upload data to the database
     deep_copied_list = copy.deepcopy(features)
     upload_data(deep_copied_list)
-    
+
     processed_features = preprocess(features)
 
     prediction = model.predict(np.array([processed_features]))
@@ -92,8 +96,11 @@ def predict():
 
     prediction = prediction.tolist()
     
-    return jsonify({'prediction': prediction[0]})
+    return jsonify({"status": "success", "received_data": prediction[0]})
+    
 
 
-if __name__=='__main__':
-    app.run(debug=True)
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
