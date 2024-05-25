@@ -5,7 +5,7 @@ from pymongo.mongo_client import MongoClient
 from get_hired_database import student_detail_entry
 import copy
 #Undump the model
-model = pickle.load(open('Placement_Prediction\\placement_model.pkl', 'rb'))
+model = pickle.load(open('placement_model.pkl', 'rb'))
 
 # Create object of class Flask
 app = Flask(__name__)
