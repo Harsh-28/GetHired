@@ -41,3 +41,23 @@ def student_detail_entry(client, features):
 
     student_table.insert_one(data1)
     print("Data inserted succesfully!!!")
+
+
+def employee_detail_entry(client, features):
+    print(client)
+    db = client['get-hired']
+    student_table = db['employee_details']
+    user_info = get_user_info(client)
+    data1 = {
+        "id" : user_info,
+        "Years of Experience" : features[0],
+        "Age" : features[1],
+        "Severance" : features[2],
+        "Promotion" : features[3],
+        "Job Title"  : features[4],
+        "Department" : features[5],
+        "Location" : features[6]
+    }
+
+    student_table.insert_one(data1)
+    print("Data inserted succesfully!!!")
