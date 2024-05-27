@@ -97,8 +97,13 @@ def receive_data():
     print(prediction)
 
     prediction = prediction.tolist()
+
+    if prediction[0] == 0:
+        ans = "Lesser chances of getting placed"
+    else:
+        ans = "Higher chances of getting placed"
     
-    return jsonify({"status": "success", "received_data": prediction[0]})
+    return jsonify({"status": "success", "received_data": ans})
     
 
 
