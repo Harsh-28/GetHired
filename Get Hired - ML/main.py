@@ -9,8 +9,8 @@ import copy
 import warnings
 warnings.simplefilter("ignore")
 #Undump the model
-model1 = pickle.load(open('C:\\Users\\hp\\Desktop\\MajorProject\\Get Hired - ML\\Placement_Prediction\\placement_model.pkl', 'rb'))
-model2 = pickle.load(open('C:\\Users\\hp\\Desktop\\MajorProject\\Get Hired - ML\\Layoff_Prediction\\best_model.pkl', 'rb'))
+model1 = pickle.load(open('Placement_Prediction\\placement_model.pkl', 'rb'))
+model2 = pickle.load(open('Layoff_Prediction\\best_model.pkl', 'rb'))
 app = Flask(__name__)
 CORS(app)  # This will enable CORS for all routes
 
