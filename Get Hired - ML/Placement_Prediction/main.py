@@ -5,6 +5,8 @@ import numpy as np
 from pymongo.mongo_client import MongoClient
 from get_hired_database import student_detail_entry
 import copy
+import warnings
+warnings.simplefilter("ignore")
 #Undump the model
 model = pickle.load(open('C:\\Users\\hp\\Desktop\\MajorProject\\Get Hired - ML\\Placement_Prediction\\placement_model.pkl', 'rb'))
 
