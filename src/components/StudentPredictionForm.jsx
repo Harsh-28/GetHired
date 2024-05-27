@@ -26,7 +26,7 @@ const studentPredictionForm = () => {
 
   const submitHandler = async (event) => {
     event.preventDefault();
-    const response = await fetch('http://localhost:5000/receiveData', {
+    const response = await fetch('http://localhost:5000/placementPrediction', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
