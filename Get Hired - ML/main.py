@@ -9,8 +9,8 @@ import copy
 import warnings
 warnings.simplefilter("ignore")
 #Undump the model
-model1 = pickle.load(open('Get Hired - ML\\Placement_Prediction\\placement_model.pkl', 'rb'))
-model2 = pickle.load(open('Get Hired - ML\\Layoff_Prediction\\best_model.pkl', 'rb'))
+model1 = pickle.load(open('C:\\Users\\hp\\Desktop\\MajorProject\\Get Hired - ML\\Placement_Prediction\\placement_model.pkl', 'rb'))
+model2 = pickle.load(open('C:\\Users\\hp\\Desktop\\MajorProject\\Get Hired - ML\\Layoff_Prediction\\best_model.pkl', 'rb'))
 app = Flask(__name__)
 CORS(app)  # This will enable CORS for all routes
 
@@ -126,7 +126,7 @@ def encode_location(user_location):
 
 
 
-def upload_data(features):
+def upload_data1(features):
     
     uri = "mongodb+srv://harshsree677:get-hired1460@cluster0.omdc2dq.mongodb.net/get-hired"
 
@@ -197,10 +197,14 @@ def layoffPrediction():
     print("Data received from frontend:", data)
     print(type(data))
     data1 = data['userInput']
-    if data1['internship'] == "1":
-        data1['internship'] = 1
+    if data1['severance'] == "1":
+        data1['severance'] = 1
     else:
-        data1['internship'] = 0
+        data1['severance'] = 0
+    if data['promotion'] == '1':
+        data1['promotion'] = 1
+    else:
+        data1['promotion'] = 0
     features = [
         data1['department'],
         float(data1['job_title']),
@@ -215,11 +219,13 @@ def layoffPrediction():
 
     #! upload data to the database
     deep_copied_list = copy.deepcopy(features)
-    upload_data(deep_copied_list)
+    upload_data1(deep_copied_list)
 
     encoded_departement = encode_department(features[0])
     encoded_job_title = encode_job_titles(features[1])
     encoded_location = encode_location(features[4])
+
+    features = [features[2], features[3], features[-2], features[-1]] + encoded_job_title + encoded_departement + encoded_location
 
     prediction = model2.predict([features])
     print(prediction)

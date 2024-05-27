@@ -45,18 +45,25 @@ def student_detail_entry(client, features):
 
 def employee_detail_entry(client, features):
     print(client)
+    # data1['department'],
+    #     float(data1['job_title']),
+    #     int(data1['years_exp']),
+    #     int(data1['age']),
+    #     int(data1['location']),
+    #     int(data1['severance'],
+    #     int(data1['promotion']))
     db = client['get-hired']
     student_table = db['employee_details']
     user_info = get_user_info(client)
     data1 = {
         "id" : user_info,
-        "Years of Experience" : features[0],
-        "Age" : features[1],
-        "Severance" : features[2],
-        "Promotion" : features[3],
-        "Job Title"  : features[4],
-        "Department" : features[5],
-        "Location" : features[6]
+        "Years of Experience" : features[2],
+        "Age" : features[3],
+        "Severance" : features[5],
+        "Promotion" : features[6],
+        "Job Title"  : features[1],
+        "Department" : features[0],
+        "Location" : features[4]
     }
 
     student_table.insert_one(data1)
