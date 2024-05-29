@@ -3,8 +3,9 @@ import { apiConnector } from "../services/apiConnector";
 import {predictionEndpoints} from '../services/apis'
 
 import axios from "axios"; 
+// import { data } from "autoprefixer";
 
-const studentPredictionForm = () => {
+const StudentPredictionForm = () => {
   const [formData, setFormData] = useState({
     major_subject: "Business Administration",
     gpa: "0",
@@ -35,6 +36,8 @@ const studentPredictionForm = () => {
     });
     const data = await response.json();
     console.log('Response from backend:', data);
+    setPrediction(data);
+    
 };
 
   return (
@@ -152,9 +155,11 @@ const studentPredictionForm = () => {
           </button>
         </form>
       </div>
-      {prediction && <div>Prediction: {prediction}</div>}
+      <p className="text-white">
+        {prediction && `Prediction: ${JSON.stringify(prediction.received_data)}`}
+      </p>
     </div>
   );
 };
 
-export default studentPredictionForm;
+export default StudentPredictionForm;
