@@ -41,15 +41,6 @@ cloudinaryConnect();
 app.use("/api/v1/auth", userRoutes);
 app.use("/api/v1/profile", profileRoutes);
 
-app.post('/api/predict', async (req, res) => {
-    try {
-        const response = await axios.post('http://localhost:5000/receiveData', req.body);
-        res.json(response.data);
-    } catch (error) {
-        console.error('Error connecting to Flask backend:', error.message);
-        res.status(500).send('Error connecting to Flask backend');
-    }
-});
 
 app.use(express.static('client/build'))
 
