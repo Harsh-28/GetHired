@@ -1,22 +1,22 @@
+
 import React, { useState } from "react";
-import { apiConnector } from "../services/apiConnector";
-import {predictionEndpoints} from '../services/apis'
+import { useNavigate } from "react-router";
 
 import axios from "axios"; 
 
 const LayoffPredictionForm = () => {
   const [formData, setFormData] = useState({
     department: "Finance",
-    jobTitle: "Software Engineer",
-    yearsExp: "0",
+    job_title: "Software Engineer",
+    years_exp: "1",
     age: "25",
     location: "Bangalore",
-    severance: "No",
-    promotion: "No",
+    severance: "Yes",
+    promotion: "Yes",
   });
 
-  const [prediction, setPrediction] = useState('');
-
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(false)
   function changeHandler(event) {
     const { name, value, checked, type } = event.target;
     setFormData((prev) => ({
@@ -28,6 +28,7 @@ const LayoffPredictionForm = () => {
   const submitHandler = async (event) => {
     console.log(formData)
     event.preventDefault();
+    setLoading(true)
     const response = await fetch('http://localhost:5000/layoffPrediction', {
         method: 'POST',
         headers: {
@@ -37,16 +38,20 @@ const LayoffPredictionForm = () => {
     });
     const data = await response.json();
     console.log('Response from backend:', data);
-    setPrediction(data);
+    setLoading(false)
+    navigate('/result', { state: { data: data.received_data } });
 };
 
   return (
     <div className="flex justify-center">
-      <div className="border border-richblack-600 text-richblack-300 rounded-xl p-7 w-[35%] flex flex-col">
-        <h1 className="text-4xl leading-10 font-semibold text-richblack-5 flex justify-center">
+      <div className={`border border-richblack-600 text-richblack-300 rounded-xl p-7 w-[35%] flex flex-col
+       ${
+        loading ? ("hidden") : ("block")
+      }`}>
+        <h1 className={`text-4xl leading-10 font-semibold text-richblack-5 flex justify-center`}>
           Layoff Prediction Form
         </h1>
-        <form
+        <form 
           className="flex flex-col gap-7 text-white py-14"
           onSubmit={submitHandler}
         >
@@ -68,12 +73,12 @@ const LayoffPredictionForm = () => {
                 <option value="Engineering">Engineering</option>
           </select>
 
-          <label htmlFor="jobTitle" className="lable-style">Job Title:</label>
+          <label htmlFor="job_title" className="lable-style">Job Title:</label>
           <select 
           className="form-style" 
-          id="jobTitle" 
-          name="jobTitle" 
-          value={formData.jobTitle}
+          id="job_title" 
+          name="job_title" 
+          value={formData.job_title}
           onChange={changeHandler}
           required>
                     <option>Software Engineer</option>
@@ -166,16 +171,16 @@ const LayoffPredictionForm = () => {
                     <option>Content Marketing Specialist</option>
                     <option>Software Development Engineer</option>
                 </select>
-          <label htmlFor="yearsExp" className="lable-style">
+          <label htmlFor="years_exp" className="lable-style">
           Years of Experience:
           </label>
           <input
             type="number"
-            id="yearsExp"
-            name="yearsExp"
+            id="years_exp"
+            name="years_exp"
             min="1"
-            max="5"
-            value={formData.yearsExp}
+            max="30"
+            value={formData.years_exp}
             onChange={changeHandler}
             className="form-style"
             required
@@ -204,10 +209,10 @@ const LayoffPredictionForm = () => {
             className="form-style"
             required
           >
-            <option value="bangalore">Bangalore</option>
-            <option value="hydrabad">Hyderabad</option>
-            <option value="mumbai">Mumbai</option>
-            <option value="remote">Remote</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Hydrabad">Hyderabad</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Remote">Remote</option>
           </select>
 
           <label htmlFor="severance" className="lable-style">Severance Package Granted:</label>
@@ -219,8 +224,8 @@ const LayoffPredictionForm = () => {
             className="form-style"
             required
           >
-            <option value="1">Yes</option>
-            <option value="0">No</option>
+            <option>Yes</option>
+            <option>No</option>
           </select>
 
           <label htmlFor="promotion" className="lable-style">Promotion Granted:</label>
@@ -232,26 +237,25 @@ const LayoffPredictionForm = () => {
             className="form-style"
             required
           >
-            <option value="1">Yes</option>
-            <option value="0">No</option>
+            <option >Yes</option>
+            <option >No</option>
           </select>
 
           <button
-            // disabled={loading}
+            disabled={loading}
             type="submit"
             className={`rounded-md bg-yellow-50 px-6 py-3 text-center text-[13px] font-bold text-black shadow-[2px_2px_0px_0px_rgba(255,255,255,0.18)] 
          ${
-           //    !loading &&
-           "transition-all duration-200 hover:scale-95 hover:shadow-none"
+              !loading &&
+           "transition-all duration-200 hover:scale-95 hover:shadow-none "
          }  disabled:bg-richblack-500 sm:text-[16px] `}
           >
             Predict Now
           </button>
         </form>
+        
       </div>
-      <p className="text-white">
-        {prediction && `Prediction: ${JSON.stringify(prediction.received_data)}`}
-      </p>
+      {loading && <div className="spinner flex justify-center items-center"></div>}
     </div>
   );
 };
