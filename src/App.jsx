@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import MyProfile from './components/core/Dashboard/MyProfile'
 import Settings from './components/core/Dashboard/Settings';
 import StudentPredictionForm from "./components/studentPredictionForm";
+import LayoffPredictionForm from "./components/LayoffPredictionForm"
 
 const App = () => {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -22,6 +23,7 @@ const App = () => {
     <Route path="/" element= {<Hero  />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="placement-prediction" element={< StudentPredictionForm/>} />
+      <Route path="layoff-prediction" element={< LayoffPredictionForm/>} />
 
     <Route
           path="signup"
