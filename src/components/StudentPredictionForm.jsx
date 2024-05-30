@@ -1,21 +1,18 @@
 import React, { useState } from "react";
-import { apiConnector } from "../services/apiConnector";
-import {predictionEndpoints} from '../services/apis'
+import { useNavigate } from 'react-router-dom';
 
-import axios from "axios"; 
-// import { data } from "autoprefixer";
+
 
 const StudentPredictionForm = () => {
   const [formData, setFormData] = useState({
     major_subject: "Business Administration",
-    gpa: "0",
+    gpa: "1",
     technical_skill: "1",
     soft_skill: "1",
     internship: "No",
     projects: "0",
   });
-
-  const [prediction, setPrediction] = useState('');
+  const [loading, setLoading] = useState(false)
 
   function changeHandler(event) {
     const { name, value, checked, type } = event.target;
@@ -24,9 +21,10 @@ const StudentPredictionForm = () => {
       [name]: type === "checkbox" ? checked : value,
     }));
   }
-
+  const navigate = useNavigate()
   const submitHandler = async (event) => {
     event.preventDefault();
+    setLoading(true)
     const response = await fetch('http://localhost:5000/placementPrediction', {
         method: 'POST',
         headers: {
@@ -36,13 +34,17 @@ const StudentPredictionForm = () => {
     });
     const data = await response.json();
     console.log('Response from backend:', data);
-    setPrediction(data);
-    
+    setLoading(false)
+    navigate('/result', { state: { data: data.received_data } });
+   
 };
 
   return (
     <div className="flex justify-center">
-      <div className="border border-richblack-600 text-richblack-300 rounded-xl p-7 w-[35%] flex flex-col">
+      <div className={`border border-richblack-600 text-richblack-300 rounded-xl p-7 w-[35%] flex flex-col
+      ${
+        loading ? ("hidden") : ("block")
+      }`}>
         <h1 className="text-4xl leading-10 font-semibold text-richblack-5 flex justify-center">
           Prediction Form
         </h1>
@@ -81,7 +83,7 @@ const StudentPredictionForm = () => {
             type="number"
             id="gpa"
             name="gpa"
-            min="0"
+            min="1"
             max="5"
             step="0.01"
             value={formData.gpa}
@@ -155,9 +157,7 @@ const StudentPredictionForm = () => {
           </button>
         </form>
       </div>
-      <p className="text-white">
-        {prediction && `Prediction: ${JSON.stringify(prediction.received_data)}`}
-      </p>
+      {loading && <div className="spinner flex justify-center items-center"></div>}
     </div>
   );
 };
