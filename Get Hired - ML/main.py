@@ -190,29 +190,29 @@ def placementPrediction():
     
 
 
-@app.route('/layoffPrediction', methods = ['POST'])
-@cross_origin
+@app.route('/layoffPrediction', methods=['POST'])
+@cross_origin()  # This will enable CORS for this specific route
 def layoffPrediction():
     data = request.json
     print("Data received from frontend:", data)
     print(type(data))
     data1 = data['userInput']
-    if data1['severance'] == "1":
+    if data1['severance'] == "Yes":
         data1['severance'] = 1
     else:
         data1['severance'] = 0
-    if data['promotion'] == '1':
+    if data1['promotion'] == 'Yes':
         data1['promotion'] = 1
     else:
         data1['promotion'] = 0
     features = [
         data1['department'],
-        float(data1['job_title']),
+        data1['job_title'],
         int(data1['years_exp']),
         int(data1['age']),
-        int(data1['location']),
-        int(data1['severance'],
-        int(data1['promotion']))
+        data1['location'],
+        data1['severance'],
+        data1['promotion']
     ]
 
     print(features)
@@ -242,7 +242,7 @@ def layoffPrediction():
     return jsonify({"status": "success", "received_data": ans})
     
     
-    return
+    
 
 
 

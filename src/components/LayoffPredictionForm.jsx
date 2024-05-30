@@ -7,12 +7,12 @@ import axios from "axios";
 const LayoffPredictionForm = () => {
   const [formData, setFormData] = useState({
     department: "Finance",
-    jobTitle: "Software Engineer",
-    yearsExp: "0",
+    job_title: "Software Engineer",
+    years_exp: "1",
     age: "25",
     location: "Bangalore",
-    severance: "No",
-    promotion: "No",
+    severance: "Yes",
+    promotion: "Yes",
   });
 
   const [prediction, setPrediction] = useState('');
@@ -68,12 +68,12 @@ const LayoffPredictionForm = () => {
                 <option value="Engineering">Engineering</option>
           </select>
 
-          <label htmlFor="jobTitle" className="lable-style">Job Title:</label>
+          <label htmlFor="job_title" className="lable-style">Job Title:</label>
           <select 
           className="form-style" 
-          id="jobTitle" 
-          name="jobTitle" 
-          value={formData.jobTitle}
+          id="job_title" 
+          name="job_title" 
+          value={formData.job_title}
           onChange={changeHandler}
           required>
                     <option>Software Engineer</option>
@@ -166,15 +166,15 @@ const LayoffPredictionForm = () => {
                     <option>Content Marketing Specialist</option>
                     <option>Software Development Engineer</option>
                 </select>
-          <label htmlFor="yearsExp" className="lable-style">
+          <label htmlFor="years_exp" className="lable-style">
           Years of Experience:
           </label>
           <input
             type="number"
-            id="yearsExp"
-            name="yearsExp"
+            id="years_exp"
+            name="years_exp"
             min="1"
-            max="5"
+            max="30"
             value={formData.yearsExp}
             onChange={changeHandler}
             className="form-style"
@@ -204,10 +204,10 @@ const LayoffPredictionForm = () => {
             className="form-style"
             required
           >
-            <option value="bangalore">Bangalore</option>
-            <option value="hydrabad">Hyderabad</option>
-            <option value="mumbai">Mumbai</option>
-            <option value="remote">Remote</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Hydrabad">Hyderabad</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Remote">Remote</option>
           </select>
 
           <label htmlFor="severance" className="lable-style">Severance Package Granted:</label>
