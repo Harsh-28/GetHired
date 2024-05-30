@@ -9,11 +9,13 @@ import VerifyEmail from "./components/VerifyEmail";
 import Navbar from './components/Navbar'
 import MyProfile from './components/core/Dashboard/MyProfile'
 import Settings from './components/core/Dashboard/Settings';
-import StudentPredictionForm from "./components/studentPredictionForm";
+import StudentPredictionForm from "./components/StudentPredictionForm";
 import LayoffPredictionForm from "./components/LayoffPredictionForm"
+import Result from "./components/Result";
+import PrivateRoute from "./constants/PrivateRoutes";
+import Error from "./components/Error";
 
 const App = () => {
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return(
     <div className="min-h-screen bg-richblack-900 flex flex-col font-inter overflow-x-hidden">
     <Navbar/>
@@ -22,8 +24,23 @@ const App = () => {
 
     <Route path="/" element= {<Hero  />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="placement-prediction" element={< StudentPredictionForm/>} />
-      <Route path="layoff-prediction" element={< LayoffPredictionForm/>} />
+      <Route path="*" element={<Error />} />
+
+      <Route path="placement-prediction" 
+      element={
+        <PrivateRoute >
+          < StudentPredictionForm/>
+        </PrivateRoute>
+        
+      } />
+
+      <Route path="layoff-prediction" 
+      element={
+        <PrivateRoute>
+          < LayoffPredictionForm/>
+        </PrivateRoute>
+      } />
+      <Route path="result" element={<Result/>} />
 
     <Route
           path="signup"
@@ -56,7 +73,6 @@ const App = () => {
             <OpenRoute>
               <UpdatePassword />
             </OpenRoute>
-            // <UpdatePassword />
           }
         />
         <Route
@@ -72,10 +88,9 @@ const App = () => {
         
         <Route
           element={
-          //   <PrivateRoute>
-              
-          //   </PrivateRoute>
-            <Dashboard />
+            <PrivateRoute>
+                <Dashboard />
+            </PrivateRoute>
           }
         >
           {/* Route for all users */}
