@@ -1,0 +1,101 @@
+[
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "IT Administrator (Remote)",
+        "company_name": "California Intercontinental University",
+        "job_description": [
+            "Attend industry events and conferences to network and stay current on new developments in the field.",
+            "Install and configure hardware and software, including\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "Intermediate IT Administrator",
+        "company_name": "Caminosoft AI",
+        "job_description": [
+            "Troubleshoot hardware, software, and network issues, and provide timely resolution.",
+            "Manage and administer the organization's IT infrastructure, including\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "IT System Administrator",
+        "company_name": "Aastitva Being Foundation",
+        "job_description": [
+            "Monitoring and maintaining network infrastructure.",
+            "A bachelor's degree in Computer Science (Must have).",
+            "Hands-on work experience of atleast 3 years (Must have)."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "ICT Team Leader (Information & Communication Technology)",
+        "company_name": "EGEC QATAR",
+        "job_description": [
+            "Lead and manage a team of IT professionals, including system administrators, network engineers, help desk technicians, and other IT specialists."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "Senior Network Administrator",
+        "company_name": "Assistian",
+        "job_description": [
+            "Issues proactively identify and tune network performance across a variety of network technologies.",
+            "Practical knowledge of network security, including network\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "SharePoint Admin",
+        "company_name": "AES Technologies Pvt. Ltd.",
+        "job_description": [
+            "At least 3 years' experience as a SharePoint administrator.",
+            "An outstanding SharePoint administrator will be someone whose expertise results in smooth\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "System Administrator",
+        "company_name": "Vanilla Networks",
+        "job_description": [
+            "We are looking for well experienced and skilled system administrators to support datacenters, web hosting service providers and cloud service providers."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "Cyber Security Engineer",
+        "company_name": "Teradyne",
+        "job_description": [
+            "Collaborate with cross-functional teams to integrate security best practices into our network architecture.",
+            "As a Cyber Security Engineer, you'll play a crucial\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "Windows Administrator",
+        "company_name": "MNJ Software",
+        "job_description": [
+            "MNJ SOFTWARE takes pride in building strategic long-term client relationships.",
+            "MNJ SOFTWARE is only hiring those authorized to work in the India and unable to\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Network Administrator",
+        "job_title": "System Administrator & Support",
+        "company_name": "WovV Technologies",
+        "job_description": [
+            "Experience with databases, networks (LAN, WAN) and patch management.",
+            "Responsible for the maintenance, configuration, and reliable operation of computer systems,\u2026"
+        ],
+        "location": "remote"
+    }
+]

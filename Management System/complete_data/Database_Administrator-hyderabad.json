@@ -1,0 +1,100 @@
+[
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "Database Administrator",
+        "company_name": "Accenture",
+        "job_description": [
+            "Install and configure database management systems (DBMS).",
+            "Strong understanding of database design, implementation, and maintenance."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "Database Administrator II",
+        "company_name": "NCR Atleos",
+        "job_description": [
+            "Minimum 5+ years of experience as MS SQL database administrator.",
+            "Install, monitor for, download and apply upgrades, updates and fixes database software on\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "Senior Database Administrator",
+        "company_name": "S&P Global",
+        "job_description": [
+            "Good experience with database support, administration, performance tuning, and database monitoring.",
+            "Perform database backups/ refreshes in non-prod environments\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "Technical Associate",
+        "company_name": "Haleon",
+        "job_description": [
+            "May be appointed as an administrator in document management systems.",
+            "The TA is responsible for assisting with the management of aggregate reports and other\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "SQL Server DBA",
+        "company_name": "Anblicks",
+        "job_description": [
+            "Besides the basic install-configure- monitor- backup knowledge I need the following skills:",
+            "Experience implementing and managing encryption lifecycle."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "Database Administrator Oracle/NoSQL",
+        "company_name": "Qualcomm",
+        "job_description": [
+            "Establish effective database performance monitoring procedures.",
+            "Skills in Oracle database backup and recovery.",
+            "Experience managing large sized databases."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "IBM DB2, PostgreSQL, Cassandra Database Administrator",
+        "company_name": "Kyndryl",
+        "job_description": [
+            "At least 5 + years\u2019 experience in PostgreSQL -Linux relational database work and NoSQL database administration such as Cassandra - on Linux platform."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "SQL Server Database Administrator",
+        "company_name": "nfolks",
+        "job_description": [
+            "Monitoring blocking and avoiding deadlock scenarios in the database.",
+            "Perform Database Refresh activities of lower environments like UAT, staging environments\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "Database Administrator \u2013 DBA \u2013 MSSQLServer, MYSQL-Oracle",
+        "company_name": "Profitics",
+        "job_description": [
+            "Responsibilities include backup and recovery, performance tuning, database maintenance, database security, fault tolerance, scalability, disaster recovery\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Database Administrator",
+        "job_title": "DATABASE ADMINISTRATOR",
+        "company_name": "Datametrics Software Systems",
+        "job_description": [
+            "Performing various database operations including: Creating and managing user logins, permissions and database access."
+        ],
+        "location": "hyderabad"
+    }
+]

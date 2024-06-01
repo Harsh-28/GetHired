@@ -1,1 +1,212 @@
-[]
+[
+    {
+        "_id": "6655c3984bf96f308374e901",
+        "course": "Introduction to Cyber Security Specialization",
+        "provider": "Coursera (NYU)",
+        "link": "https://www.coursera.org/specializations/intro-cyber-security",
+        "domain": "Cybersecurity"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8fb",
+        "course": "Data Science Specialization",
+        "provider": "Coursera (Johns Hopkins University)",
+        "link": "https://www.coursera.org/specializations/jhu-data-science",
+        "domain": "Data Science"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8ff",
+        "course": "Software Development Lifecycle Specialization",
+        "provider": "Coursera (University of Minnesota)",
+        "link": "https://www.coursera.org/specializations/software-development-lifecycle",
+        "domain": "Software Development"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8f8",
+        "course": "Machine Learning",
+        "provider": "Coursera (Stanford University)",
+        "link": "https://www.coursera.org/learn/machine-learning",
+        "domain": "Artificial Intelligence"
+    },
+    {
+        "_id": "6655c3984bf96f308374e900",
+        "course": "Software Development Fundamentals",
+        "provider": "edX (University of Pennsylvania)",
+        "link": "https://www.edx.org/course/software-development-fundamentals",
+        "domain": "Software Development"
+    },
+    {
+        "_id": "6655c3984bf96f308374e911",
+        "course": "Interaction Design Specialization",
+        "provider": "Coursera (UC San Diego)",
+        "link": "https://www.coursera.org/specializations/interaction-design",
+        "domain": "Human-Computer Interaction"
+    },
+    {
+        "_id": "6655c3984bf96f308374e915",
+        "course": "Computational Theory",
+        "provider": "Coursera (University of Toronto)",
+        "link": "https://www.coursera.org/learn/theory-computation",
+        "domain": "Theoretical Computer Science"
+    },
+    {
+        "_id": "6655c3984bf96f308374e902",
+        "course": "Cybersecurity Fundamentals",
+        "provider": "edX (RIT)",
+        "link": "https://www.edx.org/course/cybersecurity-fundamentals",
+        "domain": "Cybersecurity"
+    },
+    {
+        "_id": "6655c3984bf96f308374e90e",
+        "course": "The Web Developer Bootcamp",
+        "provider": "Udemy",
+        "link": "https://www.udemy.com/course/the-web-developer-bootcamp/",
+        "domain": "Web Development"
+    },
+    {
+        "_id": "6655c3984bf96f308374e910",
+        "course": "Human-Computer Interaction",
+        "provider": "Coursera (University of California, San Diego)",
+        "link": "https://www.coursera.org/learn/human-computer-interaction",
+        "domain": "Human-Computer Interaction"
+    },
+    {
+        "_id": "6655c3984bf96f308374e907",
+        "course": "Databases: Advanced Topics in SQL",
+        "provider": "Coursera (University of Michigan)",
+        "link": "https://www.coursera.org/learn/advanced-sql",
+        "domain": "Database Systems"
+    },
+    {
+        "_id": "6655c3984bf96f308374e90c",
+        "course": "Introduction to Networking",
+        "provider": "edX (NYU)",
+        "link": "https://www.edx.org/course/introduction-to-networking",
+        "domain": "Computer Networks"
+    },
+    {
+        "_id": "6655c3984bf96f308374e90d",
+        "course": "Full-Stack Web Development with React Specialization",
+        "provider": "Coursera (Hong Kong University of Science and Technology)",
+        "link": "https://www.coursera.org/specializations/full-stack-react",
+        "domain": "Web Development"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8f9",
+        "course": "Deep Learning Specialization",
+        "provider": "Coursera (DeepLearning.AI)",
+        "link": "https://www.coursera.org/specializations/deep-learning",
+        "domain": "Artificial Intelligence"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8fd",
+        "course": "Applied Data Science with Python Specialization",
+        "provider": "Coursera (University of Michigan)",
+        "link": "https://www.coursera.org/specializations/data-science-python",
+        "domain": "Data Science"
+    },
+    {
+        "_id": "6655c3984bf96f308374e908",
+        "course": "Database Systems Specialization",
+        "provider": "Coursera (University of Colorado Boulder)",
+        "link": "https://www.coursera.org/specializations/database-systems",
+        "domain": "Database Systems"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8fa",
+        "course": "AI For Everyone",
+        "provider": "Coursera (DeepLearning.AI)",
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "domain": "Artificial Intelligence"
+    },
+    {
+        "_id": "6655c3984bf96f308374e904",
+        "course": "Architecting with Google Cloud Platform Specialization",
+        "provider": "Coursera (Google Cloud)",
+        "link": "https://www.coursera.org/specializations/gcp-architecture",
+        "domain": "Cloud Computing"
+    },
+    {
+        "_id": "6655c3984bf96f308374e903",
+        "course": "IBM Cybersecurity Analyst Professional Certificate",
+        "provider": "Coursera (IBM)",
+        "link": "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst",
+        "domain": "Cybersecurity"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8fc",
+        "course": "Data Science MicroMasters Program",
+        "provider": "edX (University of California, San Diego)",
+        "link": "https://www.edx.org/micromasters/uc-san-diegox-data-science",
+        "domain": "Data Science"
+    },
+    {
+        "_id": "6655c3984bf96f308374e8fe",
+        "course": "Agile Software Development",
+        "provider": "edX (University of Minnesota)",
+        "link": "https://www.edx.org/course/agile-software-development",
+        "domain": "Software Development"
+    },
+    {
+        "_id": "6655c3984bf96f308374e909",
+        "course": "Introduction to Databases",
+        "provider": "edX (Stanford University)",
+        "link": "https://www.edx.org/course/introduction-to-databases",
+        "domain": "Database Systems"
+    },
+    {
+        "_id": "6655c3984bf96f308374e912",
+        "course": "Human-Computer Interaction for User Experience Design",
+        "provider": "edX (Georgia Tech)",
+        "link": "https://www.edx.org/course/human-computer-interaction-4",
+        "domain": "Human-Computer Interaction"
+    },
+    {
+        "_id": "6655c3984bf96f308374e913",
+        "course": "Automata Theory",
+        "provider": "Coursera (Stanford University)",
+        "link": "https://www.coursera.org/learn/automata",
+        "domain": "Theoretical Computer Science"
+    },
+    {
+        "_id": "6655c3984bf96f308374e914",
+        "course": "Theory of Computation",
+        "provider": "edX (UC San Diego)",
+        "link": "https://www.edx.org/course/theory-of-computation",
+        "domain": "Theoretical Computer Science"
+    },
+    {
+        "_id": "6655c3984bf96f308374e90a",
+        "course": "Computer Networking",
+        "provider": "Udacity (Georgia Tech)",
+        "link": "https://www.udacity.com/course/computer-networking--ud436",
+        "domain": "Computer Networks"
+    },
+    {
+        "_id": "6655c3984bf96f308374e90f",
+        "course": "Web Development Specialization",
+        "provider": "Coursera (University of London)",
+        "link": "https://www.coursera.org/specializations/web-development",
+        "domain": "Web Development"
+    },
+    {
+        "_id": "6655c3984bf96f308374e905",
+        "course": "AWS Fundamentals Specialization",
+        "provider": "Coursera (AWS)",
+        "link": "https://www.coursera.org/specializations/aws-fundamentals",
+        "domain": "Cloud Computing"
+    },
+    {
+        "_id": "6655c3984bf96f308374e90b",
+        "course": "Networking in Google Cloud Specialization",
+        "provider": "Coursera (Google Cloud)",
+        "link": "https://www.coursera.org/specializations/networking-google-cloud",
+        "domain": "Computer Networks"
+    },
+    {
+        "_id": "6655c3984bf96f308374e906",
+        "course": "Cloud Computing Specialization",
+        "provider": "Coursera (University of Illinois)",
+        "link": "https://www.coursera.org/specializations/cloud-computing",
+        "domain": "Cloud Computing"
+    }
+]

@@ -108,7 +108,7 @@ def encode_job_titles(user_job_title):
 
 
 def encode_department(user_department):
-    lst_of_department = ["Customer Service", "Engineering", "Finance", "Human Resource", "IT", "Marketing",
+    lst_of_department = ["Customer Service", "Engineering", "Finance", "HumanResource", "IT", "Marketing",
                           "Operations", "Sales"]
     user_department_index = lst_of_department.index(user_department)
     user_department_one_hot_encode = [0.0] * len(lst_of_department)

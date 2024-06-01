@@ -1,0 +1,100 @@
+[
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Backend Engineer - 1",
+        "company_name": "Scrumlin",
+        "job_description": [
+            "Collaborate with frontend developers to integrate backend services seamlessly.",
+            "Experience in building backend systems from scratch to completion."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Backend Engineer",
+        "company_name": "NTECH IT SOLUTIONS PRIVATE LIMITED",
+        "job_description": [
+            "Looking for a backend engineer who\u2019s comfortable with the Python and Node.js/Deno software ecosystems to design, implement, and orchestrate backend\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "QA Engineer",
+        "company_name": "isoftronics",
+        "job_description": [
+            "Experience with frontend and backend manual testing.",
+            "Manualtestingandsprintactivities \u25cb Review Product Requirements Documents (PRDs), Epics, and User Stories."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Backend Engineer (India)",
+        "company_name": "Aidaptive",
+        "job_description": [
+            "It's also the easiest way for any company to leverage the data they already have to solve their hardest business problems."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "DevOps Engineer",
+        "company_name": "Entiovi Technologies Private Limited",
+        "job_description": [
+            "Manage the performance, scalability, and cost of our backend.",
+            "Keep our production and staging environments running smoothly.",
+            "Job Types: Full-time, Permanent."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "VoIP Engineer",
+        "company_name": "WebCodeGenie Technologies Pvt Ltd",
+        "job_description": [
+            "Collaborate with UI/UX teams to integrate a user-friendly interface with robust backend services.",
+            "2.5 to 5 years of hands-on experience in Freeswitch."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Lead Software Engineer (Backend)",
+        "company_name": "Atlas Primary",
+        "job_description": [
+            "Diligently handle new feature development, conducting impact analysis, coordinating with Product Manager for the development of the new features."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Software Engineer - 2 Backend",
+        "company_name": "Phyllo Inc.",
+        "job_description": [
+            "2-6 years of experience in backend development.",
+            "Part of the core team and responsible for end to end development.",
+            "Design robust APIs to support any clients."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Backend Integration Engineer",
+        "company_name": "Blooming Health",
+        "job_description": [
+            "Bachelor's degree in Computer Science, Statistics, or a related field with a minimum of 6-8 years of experience in backend development and integrations."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Backend Engineer",
+        "job_title": "Senior Software Engineer - Backend",
+        "company_name": "BigShyft",
+        "job_description": [
+            "Facilitate collaboration between engineers, product owners, and other stakeholders.",
+            "On the backend, we\u2019re looking for experience with PHP/Node.js/Python."
+        ],
+        "location": "remote"
+    }
+]
