@@ -1,53 +1,92 @@
 import React from "react";
-import "./App.css"
-import { Hero, Login , Signup, Footer, Dashboard, Contact} from "./components";
+import "./App.css";
+import { Hero, Login, Signup, Footer, Dashboard, Contact } from "./components";
 import { Route, Routes } from "react-router";
 import OpenRoute from "./components/core/Auth/OpenRoute";
 import ForgotPassword from "./components/ForgotPassword";
-import UpdatePassword from './components/UpdatePassword';
+import UpdatePassword from "./components/UpdatePassword";
 import VerifyEmail from "./components/VerifyEmail";
-import Navbar from './components/Navbar'
-import MyProfile from './components/core/Dashboard/MyProfile'
-import Settings from './components/core/Dashboard/Settings';
-import StudentPredictionForm from "./components/studentPredictionForm";
-import LayoffPredictionForm from "./components/LayoffPredictionForm"
+import Navbar from "./components/Navbar";
+import MyProfile from "./components/core/Dashboard/MyProfile";
+import Settings from "./components/core/Dashboard/Settings";
+import StudentPredictionForm from "./components/StudentPredictionForm";
+import LayoffPredictionForm from "./components/LayoffPredictionForm";
+import Result from "./components/Result";
+import PrivateRoute from "./constants/PrivateRoutes";
+import Error from "./components/Error";
+import Courses from "./components/core/courses/Courses";
+import JobSearch from "./components/Jobsearch";
+import JobRoles from "./components/JobRoles";
 
 const App = () => {
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
-  return(
+  return (
     <div className="min-h-screen bg-richblack-900 flex flex-col font-inter overflow-x-hidden">
-    <Navbar/>
+      <Navbar />
 
-  <Routes>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+        <Route
+          path="/courses"
+          element={
+            <PrivateRoute>
+              <Courses />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="placement-prediction"
+          element={
+            <PrivateRoute>
+              <StudentPredictionForm />
+            </PrivateRoute>
+          }
+        />
 
-    <Route path="/" element= {<Hero  />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="placement-prediction" element={< StudentPredictionForm/>} />
-      <Route path="layoff-prediction" element={< LayoffPredictionForm/>} />
+        <Route
+          path="/job-search"
+          element={
+            <PrivateRoute>
+              <JobSearch />
+            </PrivateRoute>
+          }
+        />
+          <Route path="job-search/job-roles" element={<PrivateRoute><JobRoles/></PrivateRoute>} />
+        
 
-    <Route
+        <Route
+          path="layoff-prediction"
+          element={
+            <PrivateRoute>
+              <LayoffPredictionForm />
+            </PrivateRoute>
+          }
+        />
+        <Route path="result" element={<Result />} />
+
+        <Route
           path="signup"
           element={
             <OpenRoute>
               <Signup />
             </OpenRoute>
-            
           }
         />
-      <Route
+        <Route
           path="login"
           element={
             <OpenRoute>
-            <Login />
-          </OpenRoute>
+              <Login />
+            </OpenRoute>
           }
         />
         <Route
           path="forgot-password"
           element={
             <OpenRoute>
-            <ForgotPassword />
-          </OpenRoute>
+              <ForgotPassword />
+            </OpenRoute>
           }
         />
         <Route
@@ -56,7 +95,6 @@ const App = () => {
             <OpenRoute>
               <UpdatePassword />
             </OpenRoute>
-            // <UpdatePassword />
           }
         />
         <Route
@@ -65,33 +103,25 @@ const App = () => {
             <OpenRoute>
               <VerifyEmail />
             </OpenRoute>
-            
           }
         />
-       
-        
+
         <Route
           element={
-          //   <PrivateRoute>
-              
-          //   </PrivateRoute>
-            <Dashboard />
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
           }
         >
           {/* Route for all users */}
           <Route path="dashboard/my-profile" element={<MyProfile />} />
           <Route path="dashboard/Settings" element={<Settings />} />
-
         </Route>
+      </Routes>
 
-
-  </Routes>
-  
-  <Footer />
-  </div>
-  )
-
-
-  };
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
