@@ -5,7 +5,6 @@ import Hero from "./Hero";
 import Explore from './Explore';
 import ExploreCard from './ExploreCard';
 import GetStarted from './GetStarted';
-import Feedback from './Feedback';
 import Layout from './Layout';
 import Contact from './Contact';
 import  Login from './Login';
@@ -19,7 +18,6 @@ export {
   Explore,
   ExploreCard,
   GetStarted,
-  Feedback,
   Layout,
   Contact,
   Login,
