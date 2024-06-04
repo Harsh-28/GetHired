@@ -1,96 +1,97 @@
-import { useState } from "react";
+
 import React from "react";
+import logo from '../assets/logo.png'
+import { Link, matchPath } from "react-router-dom";
+import ProfileDropdown from "./core/Auth/ProfileDropDown";
+import { useSelector } from "react-redux";
+import {NavbarLinks} from '../data/navbar-links'
 import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
 import styles from "../styles";
-import { Link, NavLink } from "react-router-dom";
-import { toast } from "react-hot-toast";
-import { profile } from "../assets";
+import { useLocation } from "react-router-dom";
 
-const Navbar = (props) => {
-  let isLoggedIn = props.isLoggedIn;
-  let setIsLoggedIn = props.setIsLoggedIn;
-
-  return (
-    <motion.nav
+const Navbar = () => {
+  const location = useLocation();
+  const matchRoute = (route) => {
+    return matchPath({path:route}, location.pathname);
+}
+  const {token} = useSelector( (state) => state.auth );
+    return (
+      <motion.nav
       variants={navVariants}
       initial="hidden"
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative z-[10]`}
     >
-      <div className="absolute w-[50%] inset-0 gradient-01" />
+      <div className="absolute w-[50%] inset-0 gradient-01 opacity-20" />
 
       <motion.nav
         variants={navVariants}
         initial="hidden"
         whileInView="show"
-        className={`${styles.xPaddings} py-8 relative z-[10]`}
+        className= 'relative z-[10]'
       >
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+      <div className='flex h-16 items-center justify-center border-b-[1px] border-b-richblack-700'>
+        <div className='flex w-11/12 max-w-maxContent items-center justify-between' >
           <Link to="/" className="flex items-center">
-            <h2 className=" font-extrabold text-[24px] leading-7 text-white ">
-              GET HIRED
-            </h2>
+            <img src={logo} alt="logo" width={160} height={42} loading='lazy'/>
           </Link>
-          <div className="flex items-center lg:order-2">
-            {!isLoggedIn && (
+
+          <nav>
+            <ul className='flex gap-x-6 text-richblack-25'>
+              {
+                NavbarLinks.map( (link, index) => (
+                  <li key={index}>
+                  {
+                    <Link to={link?.path}>
+                      <p className= {`${matchRoute(link?.path) ? "text-yellow-25" : "text-richblack-25"}`}>
+                        {link.title}
+                      </p>
+                    </Link>
+                    }
+                  </li>
+                ))
+              }              
+            </ul>
+          </nav>
+          
+          <div className="flex items-center gap-3 lg:order-2">
+            {token === null && (
               <Link
                 to="/login"
                 className="hover:text-white text-dimWhite
-                font-medium rounded-lg text-sm px-4 lg:px-5 
-               py-2 lg:py-2.5 mr-2 focus:outline-none"
+                font-medium text-sm lg:px-5 
+               lg:py-2.5 mr-2 focus:outline-none border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100 rounded-md"
               >
                 Log in
               </Link>
             )}
-            {!isLoggedIn && (
-              <Link to="/signup" className="text-white">
+            {token === null && (
+              <Link to="/signup" >
                 <button
                   type="button"
-                  className="flex
-          items-center h-fit py-3 px-5 bg-[#25618b] hover:bg-[#1d4a6b]
-          rounded-[32px] gap-[12px]"
+                  className='hover:text-white text-dimWhite
+                  font-medium text-sm lg:px-5 
+                 lg:py-2.5 mr-2 focus:outline-none border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100 rounded-md'
                 >
                   <span
-                    className="font-sm text-[13px]
-          text-white"
+                    className=" font-medium text-[15px]"
                   >
                     {" "}
-                    GET STARTED
+                    Sign up
                   </span>
                 </button>
               </Link>
             )}
-            {isLoggedIn && (
-              <Link to="/dashboard">
-                <button
-                  className="text-white py-[8px] 
-                    px-[12px] rounded-[8px] "
-                >
-                  Dashboard
-                </button>
-              </Link>
-            )}
-            {isLoggedIn && (
-              <Link to="/">
-                <div
-                  onClick={() => {
-                    setIsLoggedIn(false);
-                    toast.success("Logged Out");
-                  }}
-                  className=" text-white py-[8px] 
-                    px-[12px] rounded-[8px] "
-                >
-                  Logout
-                </div>
-              </Link>
-            )}
-            
+            {token !== null && 
+              <ProfileDropdown />
+            }
           </div>
         </div>
+      </div>
       </motion.nav>
     </motion.nav>
+      
   );
-};
-
+}
 export default Navbar;

@@ -1,0 +1,89 @@
+[
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer",
+        "company_name": "Hexagon Asset Lifecycle Intelligence",
+        "job_description": [
+            "Working experience with Rest API / UI automation framework using tools like Playwright, Selenium, NodeJs, JavaScript."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer II",
+        "company_name": "Microsoft",
+        "job_description": [
+            "APPX package for hosting models with encryption / theft protection.",
+            "Excellent C/C++/Java/Kotlin/JNI design and coding skills."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer, Associate",
+        "company_name": "Infor",
+        "job_description": [
+            "Should be able to efficiently understand the business requirements of the BAs and subsequently be able to configure and provide solutions that meet design needs\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer III",
+        "company_name": "JPMorgan Chase & Co",
+        "job_description": [
+            "Interact with business/application teams to gather requirements and design database objects.",
+            "Implement security/audit measures to protect data using the CTC\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer",
+        "company_name": "Accenture",
+        "job_description": [
+            "Project Role Description : Analyze, design, code and test multiple components of application code across one or more clients."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Control Software Engineer",
+        "company_name": "Renewable Energy Grid Solutions",
+        "job_description": [
+            "Experience using Git, Jira and Confluence for version control, task/defect management and documentation.",
+            "Engineering degree in Computer Science or power systems\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Senior Software Engineer",
+        "company_name": "Wells Fargo",
+        "job_description": [
+            "4-8 years of hands-on automation development experience.",
+            "4 year or graduate degree in Computer Science or engineering.",
+            "Hands on Experience in using Core Java."
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Implementation Engineer(Onsite)",
+        "company_name": "Vinfro IT Solutions Private Limited",
+        "job_description": [
+            "Exceptional ability to provide front-end support to internal departments and web-based clients.",
+            "A bachelor's degree in software engineering, computer science,\u2026"
+        ],
+        "location": "hyderabad"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Associate Software Engineer- DOTNET",
+        "company_name": "Accurate Background",
+        "job_description": [
+            "This individual will work cross-functionally with the company\u2019s infrastructure, security, data warehouse, and other development teams to provide customer\u2026"
+        ],
+        "location": "hyderabad"
+    }
+]

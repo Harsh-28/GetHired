@@ -1,0 +1,136 @@
+[
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Senior Site Reliability Engineer",
+        "company_name": "indeed",
+        "job_description": [
+            "Guide reliability practices through the entire software development lifecycle through activities like architecture reviews, code reviews, creating platforms and\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Principal Individual Contributor - Software Development",
+        "company_name": "Meera.ai",
+        "job_description": [
+            "This position is suited for individuals who are passionate about hands-on coding and possess a deep understanding of software architecture, design patterns, and\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer",
+        "company_name": "Haavia Inc",
+        "job_description": [
+            "Integrate software components into a fully functional software system.",
+            "Document and maintain software functionality.",
+            "Write well-designed, testable code."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Full Stack Web Developer with ERP Expertise",
+        "company_name": "Confidential",
+        "job_description": [
+            "Proficiency in graphic design software including Adobe Photoshop, Adobe Illustrator, and other visual design tools.",
+            "Field related experience and education."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Backend Engineer - 1",
+        "company_name": "Scrumlin",
+        "job_description": [
+            "Additionally, the ability to assume leadership roles and a clear understanding of system design principles are crucial for this position."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Python Developer",
+        "company_name": "edutinker",
+        "job_description": [
+            "We are looking for a Python Web Developer responsible for managing the interchange of data between the server and the users."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Entry-level Zoho One Developer",
+        "company_name": "the Saffron Solution",
+        "job_description": [
+            "Collaborating with team members to understand business requirements and translate them into technical solutions within the Zoho ecosystem."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer - Testing",
+        "company_name": "Codash Solutions",
+        "job_description": [
+            "We are looking for engineers who have hands-on experience in building highly reliable distributed systems and have deep expertise in database design &\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Jr Software Engineer",
+        "company_name": "BatchService",
+        "job_description": [
+            "2 years of industry experience doing software development using PHP or Angular.",
+            "Having software engineering, design, and architecture skills."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Junior Software Engineer",
+        "company_name": "ADCanopus.com",
+        "job_description": [
+            "Develop, test, and maintain web applications using React.js and Node.js.",
+            "Minimum of 2 years of professional experience in software development."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer",
+        "company_name": "CSG",
+        "job_description": [
+            "4-6 years of software development experience.",
+            "Knowledge in object oriented analysis and design with the ability to practice across multiple languages."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Cloud Engineer",
+        "company_name": "Entiovi Technologies Private Limited",
+        "job_description": [
+            "Time zones; Requirement to work until 3 pm EST (US).",
+            "Must be able to flex at least 4 working hours to overlap with North American."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer - 2 Backend",
+        "company_name": "Phyllo Inc.",
+        "job_description": [
+            "Having the ability to write clean, effective code is a must and drill deep on technical implementation.",
+            "Write code and tests, build prototypes, resolve issues,\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "QA Engineer - Frontend (Remote)",
+        "company_name": "GreatFrontEnd",
+        "job_description": [
+            "The ideal candidate will have a strong knowledge of front-end technologies and automated testing tools, excellent problem-solving skills, and the ability to\u2026"
+        ],
+        "location": "remote"
+    }
+]

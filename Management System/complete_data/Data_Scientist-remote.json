@@ -1,0 +1,91 @@
+[
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Python Data Scientist",
+        "company_name": "Warrior tech solutions",
+        "job_description": [
+            "The tasks include evaluating data (tables, charts, and diagrams) and writing code, mainly in Python.",
+            "Role: Python Data Scientist/Analyst."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Data Scientist",
+        "company_name": "UMENIT SOLUTIONS LLP",
+        "job_description": [
+            "Experience with data preprocessing, feature engineering, and model evaluation/validation techniques.",
+            "Hands-on experience with data visualization tools such as\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Data Science And Machine Learning",
+        "company_name": "SANICON IT SERVICES PVT. LTD.",
+        "job_description": [
+            "Design and implement data orchestration solutions to automate and streamline data processes.",
+            "Perform advanced data wrangling and cleaning techniques to ensure\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Python Data Scientist/Analyst",
+        "company_name": "Skilmax",
+        "job_description": [
+            "Minimum 2 years of experience as a data scientist.",
+            "Utilize advanced data analysis skills to address critical business queries using diverse datasets."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Sr. Data Scientist",
+        "company_name": "Codvo.ai",
+        "job_description": [
+            "Familiar with modern data analytics architecture and data engineering technologies (SQL and No-SQL databases).",
+            "Knowledge of REST APIs and Web Services 6."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Junior Machine Learning Engineer",
+        "company_name": "Crescer AI",
+        "job_description": [
+            "1 year experience as a data scientist, machine learning engineer, or a strong mathematical background.",
+            "Perform EDA, and delve deep into data sourced directly\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Sr. Full Stack Data Scientist",
+        "company_name": "Vikara.AI",
+        "job_description": [
+            "As a founding member of our technical team, you\u2019ll lead high impact projects, and work closely with fellow engineering and product team members."
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Machine Learning Validation Specialist",
+        "company_name": "Codash Solutions",
+        "job_description": [
+            "Support team of data scientists as the machine learning models QA/validation SME.",
+            "Responsible for documenting the model Qualification Plan and Technical\u2026"
+        ],
+        "location": "remote"
+    },
+    {
+        "job_title_name": "Data Scientist",
+        "job_title": "Data Engineer - Insights And Analytics",
+        "company_name": "Get Glass Distribution",
+        "job_description": [
+            "Implement and maintain data governance practices to ensure data quality across the organization.",
+            "Strong data visualization skills and experience with data\u2026"
+        ],
+        "location": "remote"
+    }
+]

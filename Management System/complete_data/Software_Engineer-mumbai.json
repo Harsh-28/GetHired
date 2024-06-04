@@ -1,0 +1,92 @@
+[
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Intern - Software Engineer",
+        "company_name": "PayU",
+        "job_description": [
+            "Coding and Debugging: Write clean, efficient, and maintainable code while troubleshooting and debugging software issues."
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer",
+        "company_name": "Accenture",
+        "job_description": [
+            "Project Role Description : Analyze, design, code and test multiple components of application code across one or more clients."
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer",
+        "company_name": "Netgains Technologies",
+        "job_description": [
+            "Tech with 0.6-3 yrs exp in Microsoft ASP.",
+            "Net ,C#.Net & SQL Server, Ajax.",
+            "Candidates from the finance domain will be preferred."
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer II- Java Fullstack",
+        "company_name": "JPMorgan Chase & Co",
+        "job_description": [
+            "Writes secure and high-quality code using the syntax of at least one programming language with limited guidance.",
+            "Exposure to Python programming language."
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer Backend- I",
+        "company_name": "Upstox",
+        "job_description": [
+            "1-3 years of experience in software development.",
+            "Setup high-quality standards in production running code by performing diligent code reviews and rigorous unit\u2026"
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Python Software Engineer (AI)",
+        "company_name": "Procter & Gamble",
+        "job_description": [
+            "Experience in Agile, CI/CD and DEVOPS methodologies \u2013 knowledge of using appropriate tools \u2013 e.g., Jira, GitHub Actions / Azure Devops / Jenkins, unit testing \u2026"
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer in Python and SQL",
+        "company_name": "Institutional Shareholder Services",
+        "job_description": [
+            "3-5 years overall experience working in software development.",
+            "Participate in software deployment and release management.",
+            "Experience with git source control."
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Trainee Software Engineer",
+        "company_name": "Nirvana Technologies",
+        "job_description": [
+            "Tech (Mechanical/Production/ETC branch) OR MCA/M.",
+            "Proficiency in C++/C#.",
+            "The candidates will be selected on the basis of an aptitude test which will be\u2026"
+        ],
+        "location": "mumbai"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Support Engineer",
+        "company_name": "IDfy",
+        "job_description": [
+            "An ability to \u201cunderstand\u201d data and analyze logs to help investigate production issues and incidents.",
+            "We believe in individuals who are high on ownership and\u2026"
+        ],
+        "location": "mumbai"
+    }
+]

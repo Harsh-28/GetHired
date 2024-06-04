@@ -22,15 +22,10 @@ const About = () => {
       className='mt-[8px] font-normal sm-text-[3px] text-[22px] text-center
        text-[#c7c7c7]'
       >
-        <span className=' font-extrabold text-white'>Lorem </span> 
-         ipsum dolor sit amet consectetur adipisicing elit. 
-        Autem aut illum cumque nobis pariatur incidunt animi 
-        ipsum molestias neque laudantium consequatur tempora praesentium 
-        facere deleniti sequi nulla mollitia, obcaecati non.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Officia dolore consectetur odio, nemo perferendis a unde 
-        eligendi commodi laboriosam. Dolore velit laudantium hic? Est 
-        repudiandae temporibus incidunt expedita, rerum quibusdam.
+        <span className=' font-extrabold text-white'>Get Hired </span> 
+       integrates the predictive model into a user-friendly web application, enabling seamless interaction and personalized career recommendations.
+It forecasts a student's likelihood of securing a job and an employee's chances of job retention in diverse companies.
+It Implements an interactive chatbot to engage users, gather skill preferences, suggest suitable job roles and redirect them to a dynamic website featuring a comprehensive repository of study materials tailored to individual career goals.
       </motion.p>
       <motion.img
       variants={fadeIn('up', 'tween', 0.3, 1)}

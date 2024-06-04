@@ -1,0 +1,86 @@
+[
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Lead Software Engineer",
+        "company_name": "BOEING",
+        "job_description": [
+            "Strong experience developing software products, scalable applications using a range of software models including Object-oriented and functional design patterns."
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Principal Engineer",
+        "company_name": "Dell",
+        "job_description": [
+            "As a Software Principal Engineer, you will be responsible for developing sophisticated systems and software based on the customer\u2019s business goals, needs and\u2026"
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer",
+        "company_name": "GE Digital",
+        "job_description": [
+            "Write code that meets standards and delivers desired functionality using the technology selected for the project.",
+            "Voices opinions and presents clear rationale."
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer - I",
+        "company_name": "Capillary Technologies",
+        "job_description": [
+            "Strong coding and design skills using Python, Golang, NodeJs, Core Java/J2EE or any other high level programming language."
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer, Quality",
+        "company_name": "PayPal",
+        "job_description": [
+            "Develop Automated Tests: Write and maintain automated test scripts using tools like Espresso or XCUITest.",
+            "Set Up Test Environment: Prepare the necessary test\u2026"
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "SOFTWARE DEVELOPMENT ENGINEER 2",
+        "company_name": "Amadeus",
+        "job_description": [
+            "Must have hands-on experience with Angular 2+, RXJS, bootstrap, node, yarn, Typescript, JavaScript, HTML, CSS, material design, TDD, Webpack and CMS system."
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer II",
+        "company_name": "Flipkart",
+        "job_description": [
+            "Excellent coding skills \u2013 should be able to convert design into code fluently Good skills to write unit & integration tests with reasonable coverage of code &\u2026"
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Engineer 1",
+        "company_name": "Epsilon",
+        "job_description": [
+            "High aptitude in coding and language skills, quick learner, logical reasoning and problem-solving ability.",
+            "Language Skills - Data Structures, Java / C++, Python\u2026"
+        ],
+        "location": "bengaluru"
+    },
+    {
+        "job_title_name": "Software Engineer",
+        "job_title": "Software Development Engineer 2",
+        "company_name": "Microsoft",
+        "job_description": [
+            "2+ years of experience in software design, development, and delivery experience using a structured programming language."
+        ],
+        "location": "bengaluru"
+    }
+]

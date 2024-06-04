@@ -6,7 +6,6 @@ import {TitleText, TypingText } from '../components/CoustomTexts';
 import {startingFeatures} from '../constants'
 import StartSteps  from '../components/StartSteps'
 import { getstarted } from '../assets';
-import Feedback from './Feedback';
 
 
 const GetStarted = () => {
@@ -47,7 +46,7 @@ const GetStarted = () => {
         </div>
       </motion.div>
     </motion.div>
-    <Feedback />
+    
   </section>
 );
 }
